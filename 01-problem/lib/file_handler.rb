@@ -1,5 +1,3 @@
-require 'pry'
-
 class FileHandler
   def initialize path
     @path = path
