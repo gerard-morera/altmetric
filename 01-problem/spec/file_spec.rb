@@ -2,7 +2,7 @@ require 'file'
 
 describe File do
   let(:path)          { double 'path' }  
-  let(:absolute_path) {"/Users/gerardmorera/altmetric-test/01-problem/resources/#[Double \"path\"]"}
+  let(:absolute_path) { "/Users/gerardmorera/altmetric-test/01-problem/resources/#[Double \"path\"]" }
 
   subject { described_class.new path }
 
