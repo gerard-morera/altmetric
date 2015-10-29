@@ -1,4 +1,4 @@
-class File_handler
+class FileHandler
   def initialize path
     @path = path
   end
