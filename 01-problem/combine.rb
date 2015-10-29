@@ -1,4 +1,4 @@
-require_relative 'lib/file.rb'
+require_relative 'lib/file_handler.rb'
 require_relative 'lib/path_identifier.rb'
 
 class Combine
