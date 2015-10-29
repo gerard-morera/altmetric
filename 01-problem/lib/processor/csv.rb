@@ -1,4 +1,3 @@
-require 'pry'
 module Processor
   class Csv
     def initialize data, resource_class
