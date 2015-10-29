@@ -1,13 +1,15 @@
-require 'file'
+require 'file_handler'
 
-describe File do
+describe FileHandler do
   let(:path)          { double 'path' }  
-  let(:absolute_path) { "/Users/gerardmorera/altmetric-test/01-problem/resources/#[Double \"path\"]" }
+  let(:absolute_path) { "/Users/gerardmorera/altmetric-test/01-problem/resources/#{path}" }
 
   subject { described_class.new path }
 
   describe 'open' do 
     context "with a valid path file" do
+      let(:path)  { 'articles.csv' } 
+      
       before do
         allow(File).to receive(:exist?).with(absolute_path).
           and_return true

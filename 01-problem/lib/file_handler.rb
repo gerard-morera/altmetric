@@ -1,3 +1,5 @@
+require 'pry'
+
 class FileHandler
   def initialize path
     @path = path
@@ -14,7 +16,7 @@ class FileHandler
   private
 
   def absolute_path
-    @absolute_path ||= File.expand_path("#{path}", dir_path)
+    @absolute_path ||= File.expand_path("#{ path }", dir_path)
   end
 
   def dir_path
