@@ -23,7 +23,7 @@ class Combine
     file = FileHandler.new(path).open
 
     json_parser = Parsers::Json.new(file)
-    fp = FileProcessor::Json.new(json_parser).call
+    fp = FileProcessor::Json.new(json_parser, Resources::Articles).call
 
 
   end
