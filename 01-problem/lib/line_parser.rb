@@ -1,3 +1,5 @@
+require 'pry'
+
 class LineParser
   include Enumerable
 

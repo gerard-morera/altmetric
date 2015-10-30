@@ -1,5 +1,3 @@
-require 'pry'
-
 class PathIdentifier
   def journals
     ARGV[0]

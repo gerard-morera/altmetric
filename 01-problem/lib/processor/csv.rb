@@ -1,3 +1,5 @@
+require 'pry'
+
 module Processor
   class Csv
     def initialize data, resource_class
@@ -16,7 +18,7 @@ module Processor
     def resource *args
       flattened_args = args.flatten
 
-      resource_class.new flattened_args
+      resource_class.new_if_valid flattened_args
     end
 
     def split line

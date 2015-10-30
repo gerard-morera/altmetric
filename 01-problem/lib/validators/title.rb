@@ -1,6 +1,6 @@
 module Validators
   class Title
-    def call
+    def call value
       true
     end
   end

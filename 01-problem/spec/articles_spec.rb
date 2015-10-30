@@ -22,8 +22,8 @@ describe Articles do
         and_return(false)
     end
 
-    it 'raises and error' do
-      expect { subject }.to raise_error
+    it 'returns nil' do
+      expect(described_class.new_if_valid(data)).to eq nil
     end
   end
 
