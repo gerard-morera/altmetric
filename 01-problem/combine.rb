@@ -5,6 +5,7 @@ require_relative 'lib/parsers/json.rb'
 require_relative 'lib/file_processor/csv.rb'
 require_relative 'lib/file_processor/json.rb'
 require_relative 'lib/resources/articles.rb'
+require_relative 'lib/resources/authors.rb'
 
 class Combine
 
@@ -23,13 +24,13 @@ class Combine
     file = FileHandler.new(path).open
 
     json_parser = Parsers::Json.new(file)
-    fp = FileProcessor::Json.new(json_parser, Resources::Articles).call
+    fp = FileProcessor::Json.new(json_parser, Resources::Authors).call
 
 
   end
 end
 
 combine = Combine.new
-combine.call_csv
+combine.call_json
 
 
