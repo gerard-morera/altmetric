@@ -1,7 +1,7 @@
 require_relative 'lib/file_handler.rb'
 require_relative 'lib/path_identifier.rb'
 require_relative 'lib/line_parser.rb'
-require_relative 'lib/processor/csv.rb'
+require_relative 'lib/file_processor/csv.rb'
 require_relative 'lib/resources/articles.rb'
 
 class Combine
@@ -12,7 +12,7 @@ class Combine
 
     line_parser = LineParser.new file
    
-    a =Processor::Csv.new(line_parser, Resources::Articles).call
+    a =FileProcessor::Csv.new(line_parser, Resources::Articles).call
     binding.pry
   end
 end
