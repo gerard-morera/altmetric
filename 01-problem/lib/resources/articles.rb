@@ -1,6 +1,6 @@
 require_relative '../validators/doi.rb'
 require_relative '../validators/issn.rb'
-require_relative '../validators/title.rb'
+require_relative '../validators/articles_title.rb'
 
 class InitializationInvalidError < StandardError; end
 
@@ -14,7 +14,7 @@ module Resources
       nil
     end
     
-    def initialize data, doi_validator: Validators::Doi.new, title_validator: Validators::Title.new, issn_validator: Validators::Issn.new
+    def initialize data, doi_validator: Validators::Doi.new, title_validator: Validators::ArticlesTitle.new, issn_validator: Validators::Issn.new
       @doi, @title, @issn = data
 
       @doi_validator   = doi_validator
