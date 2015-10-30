@@ -30,6 +30,6 @@ class Combine
 end
 
 combine = Combine.new
-combine.call_json
+combine.call_csv
 
 

@@ -1,17 +1,14 @@
 require_relative '../validators/issn.rb'
 require_relative '../validators/journals_title.rb'
+require_relative '../initialitzator/nil_if_initialitzation_fails.rb'
 
 class InitializationInvalidError < StandardError; end
 
 module Resources
   class Journals
+    extend NilIfInitializationFails
+    
     attr_reader :title, :issn
-
-    def self.new_if_valid data
-      self.new data
-    rescue InitializationInvalidError
-      nil
-    end
     
     def initialize data, title_validator: Validators::JournalsTitle.new, issn_validator: Validators::Issn.new
       @title, @issn = data
