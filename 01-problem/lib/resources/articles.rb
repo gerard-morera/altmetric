@@ -1,6 +1,6 @@
-require_relative '../validators/doi.rb'
+require_relative '../validators/articles/doi.rb'
 require_relative '../validators/issn.rb'
-require_relative '../validators/articles_title.rb'
+require_relative '../validators/articles/title.rb'
 require_relative '../initialitzator/nil_if_initialitzation_fails.rb'
 
 module Resources
@@ -9,7 +9,7 @@ module Resources
 
     attr_reader :doi, :title, :issn
     
-    def initialize data, doi_validator: Validators::Doi.new, title_validator: Validators::ArticlesTitle.new, issn_validator: Validators::Issn.new
+    def initialize data, doi_validator: Validators::Articles::Doi.new, title_validator: Validators::Articles::Title.new, issn_validator: Validators::Issn.new
       @doi, @title, @issn = data
 
       @doi_validator   = doi_validator

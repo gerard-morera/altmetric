@@ -1,5 +1,5 @@
-require_relative '../validators/authors_name.rb'
-require_relative '../validators/authors_articles.rb'
+require_relative '../validators/authors/name.rb'
+require_relative '../validators/authors/articles.rb'
 require_relative '../initialitzator/nil_if_initialitzation_fails.rb'
 require 'pry'
 module Resources
@@ -8,7 +8,7 @@ module Resources
     
     attr_reader :articles, :name
     
-    def initialize data, article_validator: Validators::AuthorsArticles.new, author_validator: Validators::AuthorsName.new
+    def initialize data, article_validator: Validators::Authors::Articles.new, author_validator: Validators::Authors::Name.new
       @name     = data.fetch "name", "no_name"
       @articles = data.fetch "articles", "no_articles"
 
