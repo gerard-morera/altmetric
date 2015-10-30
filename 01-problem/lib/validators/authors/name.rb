@@ -2,7 +2,7 @@ module Validators
   module Authors
     class Name
       def call value
-        true
+        value != "no_name"
       end
     end
   end

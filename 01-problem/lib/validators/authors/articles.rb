@@ -2,7 +2,7 @@ module Validators
   module Authors
     class Articles
       def call value
-        true
+        value != "no_articles"
       end
     end
   end

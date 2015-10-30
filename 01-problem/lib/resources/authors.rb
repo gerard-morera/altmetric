@@ -1,7 +1,7 @@
 require_relative '../validators/authors/name.rb'
 require_relative '../validators/authors/articles.rb'
 require_relative '../initialitzator/nil_if_initialitzation_fails.rb'
-require 'pry'
+
 module Resources
   class Authors
     extend NilIfInitializationFails
