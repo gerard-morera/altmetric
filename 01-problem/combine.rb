@@ -7,6 +7,7 @@ require_relative 'lib/file_processor/json.rb'
 require_relative 'lib/resources/articles.rb'
 require_relative 'lib/resources/authors.rb'
 require_relative 'lib/resources/journals.rb'
+require_relative 'lib/matcher.rb'
 
 class Combine
   def call
@@ -44,7 +45,8 @@ class Combine
     articles = csv_file_processor(articles_parser, Resources::Articles)
     journals = csv_file_processor(journals_parser, Resources::Journals)
     authors  = json_file_processor(authors_parser, Resources::Authors)
-    binding.pry
+
+    matcher articles, journals, authors
   end
  
   def csv_file_processor parser, resource
@@ -72,6 +74,11 @@ class Combine
   def file path
     filehandler = FileHandler.new(path)
     filehandler.open
+  end
+
+  def matcher articles, journals, authors
+    matcher = Matcher.new(articles, journals, authors)
+    matcher.call
   end
 end
 
