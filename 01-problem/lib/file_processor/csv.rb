@@ -2,29 +2,29 @@ require 'pry'
 
 module FileProcessor
   class Csv
-    def initialize data, resource_class
-      @data           = data
-      @resource_class = resource_class
+    def initialize data, model_class
+      @data        = data
+      @model_class = model_class
     end
 
     def call
       data.each_with_object([]) do |line, accum|
-        accum << resource(split line)
+        accum << model(split line)
       end
     end
 
     private
 
-    def resource *args
+    def model *args
       flattened_args = args.flatten
 
-      resource_class.new_if_valid flattened_args
+      model_class.new_if_valid flattened_args
     end
 
     def split line
       line.split(',')
     end
 
-    attr_reader :data, :resource_class
+    attr_reader :data, :model_class
   end
 end

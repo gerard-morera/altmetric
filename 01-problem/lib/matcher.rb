@@ -6,7 +6,7 @@ class Matcher
   end
 
   def call
-    articles.each_with_obj do |article, accum|
+    articles.each_with_object do |article, accum|
       accum << attributes(article)
     end
   end

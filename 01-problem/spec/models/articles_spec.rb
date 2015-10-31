@@ -1,6 +1,6 @@
-require 'resources/articles'
+require 'models/articles'
 
-describe Resources::Articles do
+describe Models::Articles do
   let(:data)            { ['doi', 'title', 'issn'] }
   
   let(:doi_validator)   { double 'doi_validator' }

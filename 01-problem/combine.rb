@@ -4,9 +4,9 @@ require_relative 'lib/parsers/csv.rb'
 require_relative 'lib/parsers/json.rb'
 require_relative 'lib/file_processor/csv.rb'
 require_relative 'lib/file_processor/json.rb'
-require_relative 'lib/resources/articles.rb'
-require_relative 'lib/resources/authors.rb'
-require_relative 'lib/resources/journals.rb'
+require_relative 'lib/models/articles.rb'
+require_relative 'lib/models/authors.rb'
+require_relative 'lib/models/journals.rb'
 require_relative 'lib/matcher.rb'
 
 class Combine
@@ -42,20 +42,20 @@ class Combine
     journals_parser = csv_parser journals_file
     authors_parser  = json_parser authors_file
 
-    articles = csv_file_processor(articles_parser, Resources::Articles)
-    journals = csv_file_processor(journals_parser, Resources::Journals)
-    authors  = json_file_processor(authors_parser, Resources::Authors)
+    articles = csv_file_processor(articles_parser, Models::Articles)
+    journals = csv_file_processor(journals_parser, Models::Journals)
+    authors  = json_file_processor(authors_parser, Models::Authors)
 
     matcher articles, journals, authors
   end
  
-  def csv_file_processor parser, resource
-    file_processor = FileProcessor::Csv.new(parser, resource)
+  def csv_file_processor parser, model
+    file_processor = FileProcessor::Csv.new(parser, model)
     file_processor.call
   end
 
-  def json_file_processor parser, resource
-    file_processor = FileProcessor::Json.new(parser, resource)
+  def json_file_processor parser, model
+    file_processor = FileProcessor::Json.new(parser, model)
     file_processor.call
   end
 
