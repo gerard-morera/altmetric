@@ -2,7 +2,7 @@ module Validators
   module Articles
     class Doi
       def call value
-        value.include('/')
+        value.include?('/')
       end
     end
   end

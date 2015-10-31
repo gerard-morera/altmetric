@@ -6,29 +6,67 @@ require_relative 'lib/file_processor/csv.rb'
 require_relative 'lib/file_processor/json.rb'
 require_relative 'lib/resources/articles.rb'
 require_relative 'lib/resources/authors.rb'
+require_relative 'lib/resources/journals.rb'
 
 class Combine
+  def call
+    case input_handler.format
+    when "json"
+        json_format
+    when "css"
+        css_format
+    else
+        raise "wrong format"
+    end
+  end
 
-  def call_csv
-    path = InputHandler.new.articles
-    file = FileHandler.new(path).open
+  def css_format
+    operations
+  end
 
-    csv_parser = Parsers::Csv.new file
-   
-    a =FileProcessor::Csv.new(csv_parser, Resources::Articles).call
+  def json_format
+    operations
+  end
+
+  def operations
+    journals_path = input_handler.journals
+    authors_path  = input_handler.authors
+    articles_path = input_handler.articles
+
+    journals_file = file journals_path
+    authors_file  = file authors_path
+    articles_file = file articles_path
+
+    articles_parser = csv_parser articles_file
+    journals_parser = csv_parser journals_file
+    authors_parser  = json_parser authors_file
+
+    articles = csv_file_processor(articles_parser, Resources::Articles)
+    journals = csv_file_processor(journals_parser, Resources::Journals)
+    authors  = json_file_processor(authors_parser, Resources::Authors)
     binding.pry
   end
-
-  def call_json
-    path = InputHandler.new.journals
-    file = FileHandler.new(path).open
-
-    json_parser = Parsers::Json.new(file)
-    fp = FileProcessor::Json.new(json_parser, Resources::Authors).call
+ 
+  def csv_file_processor parser, resource
+    file_processor = FileProcessor::Csv.new(parser, resource)
+    file_processor.call
   end
 
-  def path_identifier
-    InputHandler.new
+  def json_file_processor parser, resource
+    file_processor = FileProcessor::Json.new(parser, resource)
+    file_processor.call
+  end
+
+  def csv_parser file
+    Parsers::Csv.new file
+  end
+
+  def json_parser file
+    Parsers::Json.new file
+  end
+
+  def input_handler
+    @input_handler ||= InputHandler.new
   end
 
   def file path
@@ -38,6 +76,6 @@ class Combine
 end
 
 combine = Combine.new
-combine.call_json
+combine.call
 
 
