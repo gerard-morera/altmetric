@@ -11,7 +11,7 @@ module Models
     def initialize data, article_validator: Validators::Authors::Articles.new, author_validator: Validators::Authors::Name.new
       @name     = data.fetch "name", "no_name"
       @articles = data.fetch "articles", "no_articles"
-      binding.pry
+
       @article_validator = article_validator
       @author_validator  = author_validator
 
