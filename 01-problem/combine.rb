@@ -13,11 +13,11 @@ class Combine
   def call
     case input_handler.format
     when "json"
-        json_format
+      json_format
     when "css"
-        css_format
+      css_format
     else
-        raise "wrong format"
+      raise "wrong format"
     end
   end
 

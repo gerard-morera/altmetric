@@ -6,26 +6,37 @@ class Matcher
   end
 
   def call
-    articles.each_with_object([]) do |article, accum|
-      accum << [article.doi, article.title, article.issn, author_doi(article.doi), journal_issn(article.issn)]
+    articles.each_with_obj do |article, accum|
+      accum << attributes(article)
     end
   end
 
+  private
 
-  def author_doi matcher
+  def attributes article
+    [ 
+      article.doi, 
+      article.title, 
+      article.issn, 
+      get_author(article.doi), 
+      get_journal(article.issn)
+    ]
+  end
+
+  def get_author matcher
     authors.find do |author|
       author.articles.include? matcher
     end.name
   end
 
-  def journal_issn matcher
+  def get_journal matcher
     journals.find do |journal|
       journal.issn == matcher
     end
   end
 
   def journal matcher
-    journal = (journal_issn(matcher) || NullJournal.new)
+    journal = (get_journal(matcher) || NullJournal.new)
     journal.title
   end
 
