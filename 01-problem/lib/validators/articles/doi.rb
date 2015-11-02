@@ -2,7 +2,11 @@ module Validators
   module Articles
     class Doi
       def call value
-        value.include?('/')
+        if value
+          value.include?('/')
+        else  
+          false
+        end
       end
     end
   end

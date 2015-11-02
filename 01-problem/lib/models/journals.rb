@@ -7,23 +7,16 @@ class InitializationInvalidError < StandardError; end
 module Models
   class Journals
     extend NilIfInitializationFails
-    extend Forwardable
-
-    attr_reader :issn
+    
+    attr_reader :title, :issn
     
     def initialize data, title_validator: Validators::Journals::Title.new, issn_validator: Validators::Issn.new
-
-      *@title_unjoined, @issn = data
+      @title, @issn = data
 
       @title_validator = title_validator
       @issn_validator  = issn_validator
 
       raise InitializationInvalidError unless valid?
-    end
-
-    def title
-
-      title_unjoined.join(',')
     end
 
     private
@@ -32,8 +25,6 @@ module Models
       title_validator.call(title) && issn_validator.call(issn)
     end
 
-    attr_reader :title_validator, :issn_validator, :title_unjoined
-
-
+    attr_reader :title_validator, :issn_validator
   end
 end

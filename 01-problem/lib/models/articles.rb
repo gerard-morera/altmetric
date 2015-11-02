@@ -10,6 +10,7 @@ module Models
     attr_reader :doi, :title, :issn
     
     def initialize data, doi_validator: Validators::Articles::Doi.new, title_validator: Validators::Articles::Title.new, issn_validator: Validators::Issn.new
+
       @doi, @title, @issn = data
 
       @doi_validator   = doi_validator
