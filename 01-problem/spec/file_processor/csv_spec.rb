@@ -3,7 +3,6 @@ require 'file_processor/csv'
 describe FileProcessor::Csv do
   let(:data)           { ["qwe,rty"] }
   let(:resource_class) { double 'resource_class' }
-  let(:args)           { ["qwe","rty"] }
   let(:resource)       { double 'resource'}
 
   subject { described_class.new data, resource_class }
@@ -12,7 +11,7 @@ describe FileProcessor::Csv do
     context 'with valid data' do
       before do
         allow(resource_class).to receive(:new_if_valid).
-          with(args).and_return(resource)
+          with(data).and_return(resource)
       end
 
       it 'instanciates resource_class with arguments for every line' do
@@ -23,7 +22,7 @@ describe FileProcessor::Csv do
     context 'with invalid data' do
       before do
         allow(resource_class).to receive(:new_if_valid).
-          with(args).and_return(nil)
+          with(data).and_return(nil)
       end
 
       it 'instanciates resource_class with arguments for every line' do

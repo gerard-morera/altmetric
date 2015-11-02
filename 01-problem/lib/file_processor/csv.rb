@@ -7,7 +7,7 @@ module FileProcessor
 
     def call
       data.each_with_object([]) do |line, accum|
-        accum << model(split line)
+        accum << model(line)
       end
     end
 
@@ -17,10 +17,6 @@ module FileProcessor
       flattened_args = args.flatten
 
       model_class.new_if_valid flattened_args
-    end
-
-    def split line
-      line.split(',')
     end
 
     attr_reader :data, :model_class
