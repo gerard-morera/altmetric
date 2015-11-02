@@ -24,15 +24,30 @@ class Combiner
   end
 
   def get_author_name matcher
-    authors.find do |author|
+    author = authors.find do |author|
       author.articles.include? matcher
-    end.name
+    end
+    author.name
   end
 
   def get_journal_title matcher
-    journals.find do |journal|
-      journal.issn == matcher
+    journal = journals.find do |journal|
+      hyphen_proof(journal, matcher) 
     end
+    (journal || NullJournal.new).title
+  end
+
+  def hyphen_proof journal, matcher
+    issn = journal.issn
+    if matcher.include?('-')
+      (issn    == matcher) || (issn == without_hyphen(matcher))
+    else
+      (matcher == issn)    || (matcher == without_hyphen(issn))
+    end
+  end
+
+  def without_hyphen matcher
+    matcher.split('-').join
   end
 
   def journal matcher
@@ -56,6 +71,6 @@ end
 
 class NullAuthor
   def title
-    "No journal"
+    "No title"
   end
 end
