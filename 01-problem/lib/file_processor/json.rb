@@ -1,5 +1,3 @@
-require 'pry'
-
 module FileProcessor
   class Json
     def initialize data, resource_class

@@ -7,82 +7,49 @@ require_relative 'lib/file_processor/json.rb'
 require_relative 'lib/models/articles.rb'
 require_relative 'lib/models/authors.rb'
 require_relative 'lib/models/journals.rb'
-require_relative 'lib/matcher.rb'
+require_relative 'lib/combiner.rb'
+require_relative 'lib/manager.rb'
 
 class Combine
   def call
     case input_handler.format
     when "json"
-      json_format
-    when "css"
-      css_format
+      to_json combined_files(*managers)
+    when "csv"
+      to_css combined_files(*managers)
     else
       raise "wrong format"
     end
   end
 
-  def css_format
-    operations
+  private
+
+  def to_csv collection
+    collection
   end
 
-  def json_format
-    operations
+  def to_json collection
+    collection
+    binding.pry
   end
 
-  def operations
-    journals_path = input_handler.journals
-    authors_path  = input_handler.authors
-    articles_path = input_handler.articles
+  def managers
+    articles_manager = Manager.new(input_handler.articles, Models::Articles, Parsers::Csv,  FileProcessor::Csv)
+    journals_manager = Manager.new(input_handler.journals, Models::Journals, Parsers::Csv,  FileProcessor::Csv)
+    authors_manager  = Manager.new(input_handler.authors,  Models::Authors,  Parsers::Json, FileProcessor::Json)
 
-    journals_file = file journals_path
-    authors_file  = file authors_path
-    articles_file = file articles_path
-
-    articles_parser = csv_parser articles_file
-    journals_parser = csv_parser journals_file
-    authors_parser  = json_parser authors_file
-
-    articles = csv_file_processor(articles_parser, Models::Articles)
-    journals = csv_file_processor(journals_parser, Models::Journals)
-    authors  = json_file_processor(authors_parser, Models::Authors)
-
-    matcher articles, journals, authors
-  end
- 
-  def csv_file_processor parser, model
-    file_processor = FileProcessor::Csv.new(parser, model)
-    file_processor.call
+    [articles_manager.call, journals_manager.call, authors_manager.call]
   end
 
-  def json_file_processor parser, model
-    file_processor = FileProcessor::Json.new(parser, model)
-    file_processor.call
-  end
-
-  def csv_parser file
-    Parsers::Csv.new file
-  end
-
-  def json_parser file
-    Parsers::Json.new file
+  def combined_files articles, journals, authors
+    combined_files = Combiner.new(articles, journals, authors)
+    combined_files.call
   end
 
   def input_handler
     @input_handler ||= InputHandler.new
   end
-
-  def file path
-    filehandler = FileHandler.new(path)
-    filehandler.open
-  end
-
-  def matcher articles, journals, authors
-    matcher = Matcher.new(articles, journals, authors)
-    matcher.call
-  end
 end
 
 combine = Combine.new
 combine.call
-
-

@@ -1,5 +1,3 @@
-require 'pry'
-
 module Parsers
   class Csv
     include Enumerable

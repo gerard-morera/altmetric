@@ -22,7 +22,7 @@ module Models
     private
 
     def valid?
-        title_validator.call(title) && issn_validator.call(issn)
+      title_validator.call(title) && issn_validator.call(issn)
     end
 
     attr_reader :title_validator, :issn_validator

@@ -1,5 +1,3 @@
-require 'pry'
-
 module FileProcessor
   class Csv
     def initialize data, model_class

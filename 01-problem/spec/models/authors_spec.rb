@@ -37,7 +37,7 @@ describe Models::Authors do
       expect(subject.articles).to eq(["Ruby","Elixir"])
     end
 
-    it 'returns the articles' do
+    it 'returns the author' do
       expect(subject.name).to eq("Gerard")
     end
   end
