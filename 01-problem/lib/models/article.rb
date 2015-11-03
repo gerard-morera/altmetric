@@ -6,10 +6,10 @@ module Models
     
     attr_reader :doi, :title, :issn
     
-    def initialize data
-      @doi    = data.first
-      @title  = data[1]
-      @issn   = hyphen_standart data.last
+    def initialize doi, title, issn
+      @doi    = doi
+      @title  = title
+      @issn   = hyphen_standaritzation_for issn
     end
   end
 end

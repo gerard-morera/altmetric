@@ -6,9 +6,9 @@ module Models
 
     attr_reader :title, :issn
     
-    def initialize data
-      @title = data.first
-      @issn  = hyphen_standart data.last
+    def initialize title, issn
+      @title = title
+      @issn  = hyphen_standaritzation_for issn
     end
   end
 end

@@ -8,7 +8,7 @@ module Builders
     end
 
     def call
-      Models::Article.new(data) if valid?
+      Models::Article.new(*data) if valid?
     end
 
     private

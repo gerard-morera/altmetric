@@ -1,7 +1,7 @@
 require 'builders/article'
 
 describe Builders::Article do
-  let(:data)      { double 'data' }
+  let(:data)      { ["doi","title", "issn"] }
   let(:validator) { double 'validator' }
 
   subject { described_class.new data }
@@ -19,7 +19,7 @@ describe Builders::Article do
 
       it 'instanciates the model' do
         expect(Models::Article).to receive(:new).
-          with(data)
+          with(*data)
 
         subject.call
       end

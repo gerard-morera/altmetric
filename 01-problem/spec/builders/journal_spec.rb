@@ -1,7 +1,7 @@
 require 'builders/journal'
 
 describe Builders::Journal do
-  let(:data)      { double 'data' }
+  let(:data)      { ["title", "issn"] }
   let(:validator) { double 'validator' }
 
   subject { described_class.new data }
@@ -19,7 +19,7 @@ describe Builders::Journal do
 
       it 'instanciates the model' do
         expect(Models::Journal).to receive(:new).
-          with(data)
+          with(*data)
 
         subject.call
       end
