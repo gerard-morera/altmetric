@@ -5,9 +5,7 @@ module Presenters
     end
 
     def call
-      collection.each do |line|
-        puts as_json line
-      end
+      puts collection.map { |line| as_json line }
     end
 
     private

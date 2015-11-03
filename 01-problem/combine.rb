@@ -31,7 +31,6 @@ class Combine
   end
 
   def to_json collection
-    binding.pry
     present(Presenters::ToJson, collection)
   end
 
