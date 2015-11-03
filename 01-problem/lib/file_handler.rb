@@ -14,11 +14,11 @@ class FileHandler
   private
 
   def absolute_path
-    @absolute_path ||= File.expand_path("#{ path }", dir_path)
+    @absolute_path ||= File.expand_path("#{ path }", dir_path )
   end
 
   def dir_path
-    "/Users/gerardmorera/altmetric-test/01-problem/resources/"
+    "resources"
   end
 
   def valid?
