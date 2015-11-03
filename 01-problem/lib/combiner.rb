@@ -1,3 +1,4 @@
+require 'pry'
 class Combiner
   def initialize articles, journals, authors
     @articles = articles.compact
@@ -63,5 +64,9 @@ end
 class NullAuthor
   def title
     "No title"
+  end
+
+  def name
+    "No name"
   end
 end
