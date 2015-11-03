@@ -5,7 +5,7 @@ module Presenters
     end
 
     def call
-      puts collection.map { |line| as_json line }
+      puts collection.map { |line| as_json line }.inspect
     end
 
     private
