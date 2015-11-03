@@ -7,9 +7,9 @@ module Validators
     def initialize data, doi_validator: Validators::Properties::Doi, title_validator: Validators::Properties::Title, issn_validator: Validators::Properties::Issn
       @doi, @title, @issn = data
       
-      @doi_validator  = doi_validator
+      @doi_validator   = doi_validator
       @title_validator = title_validator
-      @issn_validator = issn_validator
+      @issn_validator  = issn_validator
     end
 
     def call
