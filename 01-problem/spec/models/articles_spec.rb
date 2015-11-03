@@ -1,52 +1,33 @@
-require 'models/articles'
+require 'models/article'
 
-describe Models::Articles do
-  let(:data)            { ['doi', 'title', 'issn'] }
-  
-  let(:doi_validator)   { double 'doi_validator' }
-  let(:title_validator) { double 'title_validator' }
-  let(:issn_validator)  { double 'issn_validator' }
-  
-  subject do 
-    described_class.new(
-      data, 
-      doi_validator:   doi_validator, 
-      title_validator: title_validator, 
-      issn_validator:  issn_validator
-    )
+describe Models::Article do
+    
+  let(:doi)   { double 'doi' }
+  let(:title) { double 'title' }
+
+  let(:issn)  { '1234-4321' }
+
+  subject { described_class.new doi, title, issn}
+
+  it 'returns the doi' do
+    expect(subject.doi).to eq doi
   end
 
-  context 'when any instance variable non valid' do
-    before do 
-      allow(doi_validator).to receive(:call).
-        and_return(false)
-    end
-
-    it 'returns nil' do
-      expect(described_class.new_if_valid(data, doi_validator: doi_validator)).to eq nil
-    end
+  it 'returns the title' do
+    expect(subject.title).to eq title
   end
 
-  context 'when any instance variable non valid' do
-    before do
-      allow(doi_validator).to receive(:call).
-        and_return(true)
-      allow(title_validator).to receive(:call).
-        and_return(true)
-      allow(issn_validator).to receive(:call).
-        and_return(true)
-    end
-
-    it 'returns the doi' do
-      expect(subject.doi).to eq data.first
-    end
-
-    it 'returns the title' do
-      expect(subject.title).to eq data[1]
-    end
-
+  context 'when issn has hyphen' do
     it 'returns the issn' do
-      expect(subject.issn).to eq data.last
+      expect(subject.issn).to eq issn
+    end
+  end
+
+  context 'when issn has not hyphen' do
+    let(:issn)  { '12344321'}
+
+    it 'returns the issn with hyphen' do
+      expect(subject.issn).to eq('1234-4321')
     end
   end
 end

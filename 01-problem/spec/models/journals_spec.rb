@@ -1,44 +1,27 @@
-require 'models/journals'
+require 'models/journal'
 
-describe Models::Journals do
-  let(:data)            { ['title', 'issn'] }
-  
-  let(:title_validator) { double 'title_validator' }
-  let(:issn_validator)  { double 'issn_validator' }
-  
-  subject do 
-    described_class.new(
-      data, 
-      title_validator: title_validator, 
-      issn_validator:  issn_validator
-    )
+describe Models::Journal do
+  let(:title) { double 'title' }
+
+  let(:issn)  { '1234-4321' }
+
+  subject { described_class.new title, issn}
+
+  it 'returns the title' do
+    expect(subject.title).to eq title
   end
 
-  context 'when any instance variable non valid' do
-    before do 
-      allow(title_validator).to receive(:call).
-        and_return(false)
-    end
-
-    it 'returns nil' do
-      expect(described_class.new_if_valid(data)).to eq nil
-    end
-  end
-
-  context 'when any instance variable non valid' do
-    before do
-      allow(title_validator).to receive(:call).
-        and_return(true)
-      allow(issn_validator).to receive(:call).
-        and_return(true)
-    end
-
-    it 'returns the title' do
-      expect(subject.title).to eq data.first
-    end
-
+  context 'when issn has hyphen' do
     it 'returns the issn' do
-      expect(subject.issn).to eq data.last
+      expect(subject.issn).to eq issn
+    end
+  end
+
+  context 'when issn has not hyphen' do
+    let(:issn)  { '12344321'}
+
+    it 'returns the issn with hyphen' do
+      expect(subject.issn).to eq('1234-4321')
     end
   end
 end
