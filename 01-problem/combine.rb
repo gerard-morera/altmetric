@@ -9,6 +9,7 @@ require_relative 'lib/models/authors.rb'
 require_relative 'lib/models/journals.rb'
 require_relative 'lib/combiner.rb'
 require_relative 'lib/manager.rb'
+require_relative 'lib/presenters/csv.rb'
 
 class Combine
   def call
@@ -16,7 +17,7 @@ class Combine
     when "json"
       to_json combined_files(*managers)
     when "csv"
-      to_css combined_files(*managers)
+      to_csv combined_files(*managers)
     else
       raise "wrong format"
     end
@@ -25,12 +26,11 @@ class Combine
   private
 
   def to_csv collection
-    collection
+    present(Presenters::Csv, collection)
   end
 
   def to_json collection
-    collection
-    binding.pry
+    # present(Presenters::ToJson, collection)
   end
 
   def managers
@@ -48,6 +48,11 @@ class Combine
 
   def input_handler
     @input_handler ||= InputHandler.new
+  end
+
+  def present presenter_class, collection
+    presenter = presenter_class.new collection
+    presenter.call
   end
 end
 
