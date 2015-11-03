@@ -1,7 +1,7 @@
 class Manager
-  def initialize path, model, parser_class, processor_class, file_handler_class: FileHandler
+  def initialize path, builder_class, parser_class, processor_class, file_handler_class: FileHandler
     @path               = path
-    @model              = model
+    @builder_class      = builder_class
     @parser_class       = parser_class
     @processor_class    = processor_class
     @file_handler_class = file_handler_class
@@ -11,7 +11,7 @@ class Manager
     file   = open_file path
     parser = parse file
 
-    process(parser, model)
+    process(parser)
   end
 
   private
@@ -25,10 +25,10 @@ class Manager
     parser_class.new data
   end
 
-  def process parser, model
-    file_processor = processor_class.new parser, model
+  def process parser
+    file_processor = processor_class.new parser, builder_class
     file_processor.call
   end
 
-  attr_reader :path, :parser_class, :processor_class, :file_handler_class, :model
+  attr_reader :path, :parser_class, :processor_class, :file_handler_class, :builder_class
 end

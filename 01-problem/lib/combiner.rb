@@ -47,22 +47,8 @@ class Combiner
 
   def existing_journal_for matcher
     journals.find do |journal|
-      hyphen_proof(journal, matcher) 
+      journal.issn == matcher
     end
-  end
-
-  def hyphen_proof journal, matcher
-    issn = journal.issn
-
-    if matcher.include?('-')
-      (issn    == matcher) || (issn == without_hyphen(matcher))
-    else
-      (matcher == issn)    || (matcher == without_hyphen(issn))
-    end
-  end
-
-  def without_hyphen matcher
-    matcher.split('-').join
   end
 
   attr_reader :articles, :journals, :authors

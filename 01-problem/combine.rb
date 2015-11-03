@@ -1,14 +1,14 @@
-require_relative 'lib/file_handler.rb'
 require_relative 'lib/input_handler.rb'
+require_relative 'lib/file_handler.rb'
 require_relative 'lib/parsers/csv.rb'
 require_relative 'lib/parsers/json.rb'
 require_relative 'lib/file_processor/csv.rb'
 require_relative 'lib/file_processor/json.rb'
-require_relative 'lib/models/articles.rb'
-require_relative 'lib/models/authors.rb'
-require_relative 'lib/models/journals.rb'
-require_relative 'lib/combiner.rb'
+require_relative 'lib/builders/article.rb'
+require_relative 'lib/builders/author.rb'
+require_relative 'lib/builders/journal.rb'
 require_relative 'lib/manager.rb'
+require_relative 'lib/combiner.rb'
 require_relative 'lib/presenters/csv.rb'
 require_relative 'lib/presenters/to_json.rb'
 
@@ -31,13 +31,14 @@ class Combine
   end
 
   def to_json collection
+    binding.pry
     present(Presenters::ToJson, collection)
   end
 
   def managers
-    articles_manager = Manager.new(input_handler.articles, Models::Articles, Parsers::Csv,  FileProcessor::Csv)
-    journals_manager = Manager.new(input_handler.journals, Models::Journals, Parsers::Csv,  FileProcessor::Csv)
-    authors_manager  = Manager.new(input_handler.authors,  Models::Authors,  Parsers::Json, FileProcessor::Json)
+    articles_manager = Manager.new(input_handler.articles, Builders::Article, Parsers::Csv,  FileProcessor::Csv)
+    journals_manager = Manager.new(input_handler.journals, Builders::Journal, Parsers::Csv,  FileProcessor::Csv)
+    authors_manager  = Manager.new(input_handler.authors,  Builders::Author,  Parsers::Json, FileProcessor::Json)
 
     [articles_manager.call, journals_manager.call, authors_manager.call]
   end

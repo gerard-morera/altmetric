@@ -2,29 +2,28 @@ require 'csv'
 
 module FileProcessor
   class Csv
-    def initialize data, model_class
-      @data        = data
-      @model_class = model_class
+    def initialize data, builder_class
+      @data          = data
+      @builder_class = builder_class
     end
 
     def call
       data.each_with_object([]) do |line, accum|
-        accum << model(split line)
+        accum << model_builder(parse line)
       end
     end
 
     private 
 
-    def model *args
-      flattened_args = args.flatten
-
-      model_class.new_if_valid flattened_args
+    def model_builder data
+      builder = builder_class.new data.flatten
+      builder.call
     end
 
-    def split line
+    def parse line
       CSV.parse line
     end
 
-    attr_reader :data, :model_class
+    attr_reader :data, :builder_class
   end
 end
