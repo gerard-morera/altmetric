@@ -1,0 +1,581 @@
+{"issn"=>"10.1234/altmetric0", "title"=>"Small Wooden Chair", "doi"=>"1337-8688", "author"=>"Amari Lubowitz", "journal"=>"Shanahan, Green and Ziemann"}
+{"issn"=>"10.1234/altmetric100", "title"=>"Ergonomic Rubber Shirt", "doi"=>"2542-5856", "author"=>"Lenny Kshlerin", "journal"=>"Wilkinson, Gaylord and Gerlach"}
+{"issn"=>"10.1234/altmetric103", "title"=>"Fantastic Granite Computer", "doi"=>"3775-0307", "author"=>"Howard Spinka Jr.", "journal"=>"Hahn and Sons"}
+{"issn"=>"10.1234/altmetric11", "title"=>"Awesome Steel Chair", "doi"=>"1011-2513", "author"=>"Dr. Chandler Flatley", "journal"=>"Lesch, Leannon and Schiller"}
+{"issn"=>"10.1234/altmetric113", "title"=>"Incredible Cotton Car", "doi"=>"1394-1363", "author"=>"Rigoberto Hickle", "journal"=>"Vandervort-Bernier"}
+{"issn"=>"10.1234/altmetric115", "title"=>"Ergonomic Steel Gloves", "doi"=>"7744-7394", "author"=>"Kathryn Smith II", "journal"=>"Corkery, White and Boehm"}
+{"issn"=>"10.1234/altmetric117", "title"=>"Ergonomic Steel Shirt", "doi"=>"5624-7424", "author"=>"Jacinthe Johnston", "journal"=>"Davis-Wolf"}
+{"issn"=>"10.1234/altmetric118", "title"=>"Gorgeous Cotton Chair", "doi"=>"68178437", "author"=>"Ms. Emilio Grady", "journal"=>"Corkery-Jast"}
+{"issn"=>"10.1234/altmetric119", "title"=>"Awesome Wooden Shoes", "doi"=>"84475341", "author"=>"Aracely Schneider", "journal"=>"Smith, Boehm and Haley"}
+{"issn"=>"10.1234/altmetric119", "title"=>"Rustic Rubber Chair", "doi"=>"2330-6361", "author"=>"Aracely Schneider", "journal"=>"Sauer, Mills and Rodriguez"}
+{"issn"=>"10.1234/altmetric121", "title"=>"Intelligent Concrete Shoes", "doi"=>"8151-0432", "author"=>"Emmitt Mueller", "journal"=>"Schiller, Feeney and Kuhlman"}
+{"issn"=>"10.1234/altmetric124", "title"=>"Ergonomic Plastic Gloves", "doi"=>"3151-1811", "author"=>"Estella Predovic", "journal"=>"Rempel Group"}
+{"issn"=>"10.1234/altmetric127", "title"=>"Incredible Steel Gloves", "doi"=>"2447-3901", "author"=>"Annamarie Nader", "journal"=>"Hackett and Sons"}
+{"issn"=>"10.1234/altmetric127", "title"=>"Incredible Wooden Car", "doi"=>"10615642", "author"=>"Annamarie Nader", "journal"=>"Cole-Thompson"}
+{"issn"=>"10.1234/altmetric129", "title"=>"Gorgeous Plastic Computer", "doi"=>"2172-8744", "author"=>"Rebeka Koss", "journal"=>"Lemke-Sauer"}
+{"issn"=>"10.1234/altmetric13", "title"=>"Sleek Plastic Gloves", "doi"=>"0711-5119", "author"=>"Velma Rowe", "journal"=>"Wisoky-Gulgowski"}
+{"issn"=>"10.1234/altmetric133", "title"=>"Incredible Rubber Car", "doi"=>"2852-4351", "author"=>"Miss Savannah Heathcote", "journal"=>"Wehner-Jerde"}
+{"issn"=>"10.1234/altmetric135", "title"=>"Small Plastic Computer", "doi"=>"4457-7885", "author"=>"Greg Kessler V", "journal"=>"Quitzon Group"}
+{"issn"=>"10.1234/altmetric136", "title"=>"Rustic Concrete Gloves", "doi"=>"5185-8518", "author"=>"Sammy Trantow", "journal"=>"Beatty, Yundt and Ruecker"}
+{"issn"=>"10.1234/altmetric139", "title"=>"Awesome Plastic Hat", "doi"=>"6263-8718", "author"=>"Amari Lubowitz", "journal"=>"Lebsack and Sons"}
+{"issn"=>"10.1234/altmetric139", "title"=>"Sleek Concrete Table", "doi"=>"7486-7537", "author"=>"Amari Lubowitz", "journal"=>"Wintheiser, Nitzsche and Steuber"}
+{"issn"=>"10.1234/altmetric140", "title"=>"Awesome Plastic Shoes", "doi"=>"7126-8933", "author"=>"Terrell Ritchie", "journal"=>"Wehner-Green"}
+{"issn"=>"10.1234/altmetric140", "title"=>"Practical Wooden Shirt", "doi"=>"3574-8397", "author"=>"Terrell Ritchie", "journal"=>"Crona-Baumbach"}
+{"issn"=>"10.1234/altmetric142", "title"=>"Awesome Granite Shoes", "doi"=>"9865-2746", "author"=>"Nora Johnston", "journal"=>"Hand LLC"}
+{"issn"=>"10.1234/altmetric145", "title"=>"Fantastic Plastic Car", "doi"=>"4321-6136", "author"=>"Nora Johnston", "journal"=>"Pouros, Bergnaum and Farrell"}
+{"issn"=>"10.1234/altmetric146", "title"=>"Sleek Plastic Shirt", "doi"=>"5244-2255", "author"=>"Kathryn Smith II", "journal"=>"Schneider Inc"}
+{"issn"=>"10.1234/altmetric147", "title"=>"Ergonomic Steel Car", "doi"=>"2838-4244", "author"=>"Colleen Okuneva IV", "journal"=>"Rutherford-Hand"}
+{"issn"=>"10.1234/altmetric150", "title"=>"Incredible Wooden Pants", "doi"=>"6351-3231", "author"=>"Sage Waters I", "journal"=>"Cruickshank and Sons"}
+{"issn"=>"10.1234/altmetric150", "title"=>"Rustic Steel Computer", "doi"=>"8930-2501", "author"=>"Sage Waters I", "journal"=>"Huel LLC"}
+{"issn"=>"10.1234/altmetric153", "title"=>"Awesome Wooden Pants", "doi"=>"9822-9395", "author"=>"Erich Borer Sr.", "journal"=>"Keeling, Yundt and Gusikowski"}
+{"issn"=>"10.1234/altmetric153", "title"=>"Intelligent Steel Shirt", "doi"=>"1286-4993", "author"=>"Erich Borer Sr.", "journal"=>"Orn Inc"}
+{"issn"=>"10.1234/altmetric155", "title"=>"Rustic Plastic Pants", "doi"=>"9667-8162", "author"=>"Randal Koelpin", "journal"=>"Gleichner, Shanahan and Predovic"}
+{"issn"=>"10.1234/altmetric156", "title"=>"Fantastic Plastic Chair", "doi"=>"8768-8891", "author"=>"Emmitt Mueller", "journal"=>"Becker LLC"}
+{"issn"=>"10.1234/altmetric156", "title"=>"Gorgeous Concrete Table", "doi"=>"3760-2228", "author"=>"Emmitt Mueller", "journal"=>"Adams-Fay"}
+{"issn"=>"10.1234/altmetric156", "title"=>"Sleek Plastic Chair", "doi"=>"2781-6347", "author"=>"Emmitt Mueller", "journal"=>"Lynch and Sons"}
+{"issn"=>"10.1234/altmetric158", "title"=>"Ergonomic Plastic Pants", "doi"=>"7641-5567", "author"=>"Sidney Muller IV", "journal"=>"Kling LLC"}
+{"issn"=>"10.1234/altmetric16", "title"=>"Practical Wooden Shoes", "doi"=>"7651-7893", "author"=>"Kathryn Smith II", "journal"=>"Hyatt-Goodwin"}
+{"issn"=>"10.1234/altmetric16", "title"=>"Rustic Wooden Shirt", "doi"=>"1855-3425", "author"=>"Kathryn Smith II", "journal"=>"Bosco-Cruickshank"}
+{"issn"=>"10.1234/altmetric160", "title"=>"Practical Wooden Shirt", "doi"=>"3119-7753", "author"=>"Abraham Friesen", "journal"=>"Stroman-Erdman"}
+{"issn"=>"10.1234/altmetric161", "title"=>"Practical Cotton Pants", "doi"=>"4352-4478", "author"=>"Maxime Mills", "journal"=>"Reichel, Wiza and Spencer"}
+{"issn"=>"10.1234/altmetric163", "title"=>"Awesome Cotton Gloves", "doi"=>"8743-5081", "author"=>"Dr. Chandler Flatley", "journal"=>"Zboncak Group"}
+{"issn"=>"10.1234/altmetric164", "title"=>"Ergonomic Cotton Gloves", "doi"=>"4336-8427", "author"=>"Brennon Morissette", "journal"=>"Becker and Sons"}
+{"issn"=>"10.1234/altmetric165", "title"=>"Gorgeous Steel Table", "doi"=>"9749-4418", "author"=>"Jacinthe Johnston", "journal"=>"Hyatt, Gibson and Walker"}
+{"issn"=>"10.1234/altmetric165", "title"=>"Intelligent Wooden Chair", "doi"=>"6457-7841", "author"=>"Jacinthe Johnston", "journal"=>"Dietrich Group"}
+{"issn"=>"10.1234/altmetric167", "title"=>"Fantastic Granite Computer", "doi"=>"3516-3718", "author"=>"Dr. Chandler Flatley", "journal"=>"Sawayn-Stoltenberg"}
+{"issn"=>"10.1234/altmetric167", "title"=>"Small Granite Car", "doi"=>"0015-8878", "author"=>"Dr. Chandler Flatley", "journal"=>"Zulauf-Bauch"}
+{"issn"=>"10.1234/altmetric168", "title"=>"Awesome Cotton Chair", "doi"=>"12577716", "author"=>"Maximillia Rempel", "journal"=>"Ziemann-Lemke"}
+{"issn"=>"10.1234/altmetric168", "title"=>"Ergonomic Plastic Chair", "doi"=>"34230440", "author"=>"Maximillia Rempel", "journal"=>"Emard Group"}
+{"issn"=>"10.1234/altmetric17", "title"=>"Small Plastic Table", "doi"=>"9670-3728", "author"=>"Maxime Mills", "journal"=>"Moore Group"}
+{"issn"=>"10.1234/altmetric171", "title"=>"Awesome Plastic Car", "doi"=>"9275-2941", "author"=>"Colleen Okuneva IV", "journal"=>"Howell Inc"}
+{"issn"=>"10.1234/altmetric172", "title"=>"Intelligent Cotton Gloves", "doi"=>"0736-8516", "author"=>"Lysanne Swift", "journal"=>"Bosco and Sons"}
+{"issn"=>"10.1234/altmetric175", "title"=>"Sleek Plastic Shirt", "doi"=>"2822-9396", "author"=>"Meaghan Steuber Sr.", "journal"=>"Bartoletti-Lebsack"}
+{"issn"=>"10.1234/altmetric176", "title"=>"Ergonomic Steel Chair", "doi"=>"3394-4393", "author"=>"Ena Okuneva", "journal"=>"Schmidt, Miller and Schamberger"}
+{"issn"=>"10.1234/altmetric177", "title"=>"Incredible Steel Pants", "doi"=>"4814-7191", "author"=>"Darion Wilderman Jr.", "journal"=>"Rau-Kessler"}
+{"issn"=>"10.1234/altmetric179", "title"=>"Awesome Wooden Shirt", "doi"=>"4361-4534", "author"=>"Emmitt Mueller", "journal"=>"Champlin, Jacobson and Stehr"}
+{"issn"=>"10.1234/altmetric179", "title"=>"Ergonomic Steel Gloves", "doi"=>"6263-8718", "author"=>"Emmitt Mueller", "journal"=>"Lebsack and Sons"}
+{"issn"=>"10.1234/altmetric179", "title"=>"Sleek Rubber Car", "doi"=>"4098-0477", "author"=>"Emmitt Mueller", "journal"=>"Steuber LLC"}
+{"issn"=>"10.1234/altmetric180", "title"=>"Fantastic Concrete Hat", "doi"=>"4932-5361", "author"=>"Monserrat Heaney IV", "journal"=>"Schultz LLC"}
+{"issn"=>"10.1234/altmetric180", "title"=>"Small Plastic Shirt", "doi"=>"1304-8547", "author"=>"Monserrat Heaney IV", "journal"=>"Dietrich and Sons"}
+{"issn"=>"10.1234/altmetric186", "title"=>"Awesome Concrete Hat", "doi"=>"32533273", "author"=>"Ms. Emilio Grady", "journal"=>"MacGyver, Satterfield and Kutch"}
+{"issn"=>"10.1234/altmetric186", "title"=>"Intelligent Plastic Pants", "doi"=>"1085-4412", "author"=>"Ms. Emilio Grady", "journal"=>"Donnelly Inc"}
+{"issn"=>"10.1234/altmetric189", "title"=>"Incredible Cotton Table", "doi"=>"3124-3083", "author"=>"Ms. Ella Lynch", "journal"=>"Ledner, Greenfelder and Fahey"}
+{"issn"=>"10.1234/altmetric194", "title"=>"Fantastic Rubber Gloves", "doi"=>"6888-1677", "author"=>"Sage Waters I", "journal"=>"Tillman, Abshire and Goldner"}
+{"issn"=>"10.1234/altmetric194", "title"=>"Small Cotton Pants", "doi"=>"6342-6190", "author"=>"Sage Waters I", "journal"=>"Champlin-Abernathy"}
+{"issn"=>"10.1234/altmetric198", "title"=>"Fantastic Rubber Hat", "doi"=>"7826-6161", "author"=>"Orpha Cremin", "journal"=>"Pfeffer, Mayer and Gorczany"}
+{"issn"=>"10.1234/altmetric198", "title"=>"Intelligent Plastic Hat", "doi"=>"1117-0179", "author"=>"Orpha Cremin", "journal"=>"Marquardt Inc"}
+{"issn"=>"10.1234/altmetric198", "title"=>"Sleek Concrete Gloves", "doi"=>"8506-6012", "author"=>"Orpha Cremin", "journal"=>"Cormier-Gulgowski"}
+{"issn"=>"10.1234/altmetric199", "title"=>"Intelligent Rubber Computer", "doi"=>"7178-0841", "author"=>"Seth Howell", "journal"=>"Rogahn-Rice"}
+{"issn"=>"10.1234/altmetric200", "title"=>"Intelligent Concrete Table", "doi"=>"2365-1917", "author"=>"Amari Lubowitz", "journal"=>"Waelchi-Maggio"}
+{"issn"=>"10.1234/altmetric201", "title"=>"Gorgeous Concrete Table", "doi"=>"07115119", "author"=>"Akeem Toy", "journal"=>"Wisoky-Gulgowski"}
+{"issn"=>"10.1234/altmetric207", "title"=>"Intelligent Concrete Computer", "doi"=>"1636-9622", "author"=>"Rebeka Koss", "journal"=>"Gottlieb and Sons"}
+{"issn"=>"10.1234/altmetric209", "title"=>"Sleek Wooden Pants", "doi"=>"8402-8565", "author"=>"Perry Ondricka", "journal"=>"Robel Inc"}
+{"issn"=>"10.1234/altmetric21", "title"=>"Rustic Steel Shirt", "doi"=>"7247-8258", "author"=>"Greg Kessler V", "journal"=>"Wisoky-Heidenreich"}
+{"issn"=>"10.1234/altmetric214", "title"=>"Practical Concrete Gloves", "doi"=>"4732-3783", "author"=>"Mrs. Guillermo Rutherford", "journal"=>"Gaylord, Ebert and Schimmel"}
+{"issn"=>"10.1234/altmetric216", "title"=>"Ergonomic Cotton Shirt", "doi"=>"0711-5119", "author"=>"Ms. Emilio Grady", "journal"=>"Wisoky-Gulgowski"}
+{"issn"=>"10.1234/altmetric216", "title"=>"Fantastic Plastic Shoes", "doi"=>"5827-3187", "author"=>"Ms. Emilio Grady", "journal"=>"Considine, Tillman and Botsford"}
+{"issn"=>"10.1234/altmetric216", "title"=>"Small Concrete Shirt", "doi"=>"3614-5445", "author"=>"Ms. Emilio Grady", "journal"=>"Brekke, Bartell and Brown"}
+{"issn"=>"10.1234/altmetric217", "title"=>"Sleek Concrete Shoes", "doi"=>"2569-4841", "author"=>"Ena Okuneva", "journal"=>"Emmerich, Ward and King"}
+{"issn"=>"10.1234/altmetric218", "title"=>"Ergonomic Granite Chair", "doi"=>"9951-9532", "author"=>"Mrs. Guillermo Rutherford", "journal"=>"Brakus Group"}
+{"issn"=>"10.1234/altmetric22", "title"=>"Practical Plastic Gloves", "doi"=>"2987-4701", "author"=>"Sidney Muller IV", "journal"=>"Wisoky LLC"}
+{"issn"=>"10.1234/altmetric220", "title"=>"Awesome Rubber Pants", "doi"=>"5454-5726", "author"=>"Flavie Howe", "journal"=>"Gorczany-Koepp"}
+{"issn"=>"10.1234/altmetric222", "title"=>"Fantastic Wooden Pants", "doi"=>"7508-7813", "author"=>"Katelin Wiegand", "journal"=>"Sauer, Collier and Maggio"}
+{"issn"=>"10.1234/altmetric224", "title"=>"Small Steel Hat", "doi"=>"2257-8967", "author"=>"Colleen Okuneva IV", "journal"=>"MacGyver-Bernier"}
+{"issn"=>"10.1234/altmetric229", "title"=>"Ergonomic Wooden Hat", "doi"=>"6625-6746", "author"=>"Mr. Georgette DuBuque", "journal"=>"Breitenberg, Dietrich and Corkery"}
+{"issn"=>"10.1234/altmetric23", "title"=>"Rustic Wooden Gloves", "doi"=>"1567-2301", "author"=>"Demario Heathcote DVM", "journal"=>"Mohr, Denesik and Wolff"}
+{"issn"=>"10.1234/altmetric232", "title"=>"Intelligent Plastic Shoes", "doi"=>"48668484", "author"=>"Aracely Schneider", "journal"=>"Carter-Durgan"}
+{"issn"=>"10.1234/altmetric235", "title"=>"Small Wooden Table", "doi"=>"3244-4791", "author"=>"Miss Savannah Heathcote", "journal"=>"Wintheiser-Mosciski"}
+{"issn"=>"10.1234/altmetric238", "title"=>"Gorgeous Cotton Pants", "doi"=>"3976-6756", "author"=>"Sammy Trantow", "journal"=>"Graham-Boyer"}
+{"issn"=>"10.1234/altmetric239", "title"=>"Small Cotton Chair", "doi"=>"1144-3385", "author"=>"Demetris Schultz", "journal"=>"Marks-Spencer"}
+{"issn"=>"10.1234/altmetric24", "title"=>"Incredible Granite Chair", "doi"=>"8611-3315", "author"=>"Mrs. Sterling Eichmann", "journal"=>"Glover, Turcotte and Rowe"}
+{"issn"=>"10.1234/altmetric246", "title"=>"Intelligent Cotton Shirt", "doi"=>"4877-4668", "author"=>"Rigoberto Hickle", "journal"=>"Von-Vandervort"}
+{"issn"=>"10.1234/altmetric248", "title"=>"Incredible Concrete Gloves", "doi"=>"33944393", "author"=>"Vicente Baumbach", "journal"=>"Schmidt, Miller and Schamberger"}
+{"issn"=>"10.1234/altmetric251", "title"=>"Sleek Steel Shirt", "doi"=>"3664-6592", "author"=>"Sammy Trantow", "journal"=>"Hettinger-Murazik"}
+{"issn"=>"10.1234/altmetric252", "title"=>"Practical Granite Shoes", "doi"=>"4438-7273", "author"=>"Rigoberto Hickle", "journal"=>"Purdy, Treutel and Johns"}
+{"issn"=>"10.1234/altmetric252", "title"=>"Practical Wooden Hat", "doi"=>"0222-9942", "author"=>"Rigoberto Hickle", "journal"=>"Hodkiewicz-Carroll"}
+{"issn"=>"10.1234/altmetric253", "title"=>"Sleek Plastic Shirt", "doi"=>"0452-3653", "author"=>"Darion Wilderman Jr.", "journal"=>"Rempel-Steuber"}
+{"issn"=>"10.1234/altmetric253", "title"=>"Small Concrete Gloves", "doi"=>"0156-2565", "author"=>"Darion Wilderman Jr.", "journal"=>"Senger-Simonis"}
+{"issn"=>"10.1234/altmetric255", "title"=>"Incredible Rubber Chair", "doi"=>"8757-5584", "author"=>"Richie Cassin Sr.", "journal"=>"Kris-Kovacek"}
+{"issn"=>"10.1234/altmetric261", "title"=>"Awesome Plastic Gloves", "doi"=>"1722-6342", "author"=>"Brennon Morissette", "journal"=>"Goldner, Schowalter and Adams"}
+{"issn"=>"10.1234/altmetric265", "title"=>"Awesome Granite Computer", "doi"=>"33944393", "author"=>"Maximillia Rempel", "journal"=>"Schmidt, Miller and Schamberger"}
+{"issn"=>"10.1234/altmetric266", "title"=>"Awesome Rubber Gloves", "doi"=>"1002-7248", "author"=>"Jacinthe Johnston", "journal"=>"Schimmel LLC"}
+{"issn"=>"10.1234/altmetric267", "title"=>"Awesome Plastic Chair", "doi"=>"6567-7838", "author"=>"Jeramy Conroy", "journal"=>"Bergstrom-Dach"}
+{"issn"=>"10.1234/altmetric267", "title"=>"Practical Wooden Table", "doi"=>"7988-0761", "author"=>"Jeramy Conroy", "journal"=>"Frami Group"}
+{"issn"=>"10.1234/altmetric267", "title"=>"Small Concrete Pants", "doi"=>"0421-2684", "author"=>"Jeramy Conroy", "journal"=>"Goldner LLC"}
+{"issn"=>"10.1234/altmetric268", "title"=>"Gorgeous Rubber Car", "doi"=>"4352-4478", "author"=>"Lenny Kshlerin", "journal"=>"Reichel, Wiza and Spencer"}
+{"issn"=>"10.1234/altmetric268", "title"=>"Small Granite Pants", "doi"=>"2721-9414", "author"=>"Lenny Kshlerin", "journal"=>"Upton Group"}
+{"issn"=>"10.1234/altmetric269", "title"=>"Sleek Plastic Pants", "doi"=>"6754-6563", "author"=>"Howard Spinka Jr.", "journal"=>"Durgan-Ryan"}
+{"issn"=>"10.1234/altmetric271", "title"=>"Incredible Plastic Hat", "doi"=>"6322-4751", "author"=>"Miss Angela Ratke", "journal"=>"Smith-O'Conner"}
+{"issn"=>"10.1234/altmetric273", "title"=>"Ergonomic Plastic Shoes", "doi"=>"5188-8757", "author"=>"Bernita Von Jr.", "journal"=>"Romaguera Inc"}
+{"issn"=>"10.1234/altmetric279", "title"=>"Gorgeous Wooden Table", "doi"=>"4415-5455", "author"=>"Miss Richie Rolfson", "journal"=>"Hettinger Group"}
+{"issn"=>"10.1234/altmetric286", "title"=>"Incredible Concrete Car", "doi"=>"7488-7374", "author"=>"Darion Wilderman Jr.", "journal"=>"Hoppe-Fahey"}
+{"issn"=>"10.1234/altmetric287", "title"=>"Incredible Wooden Car", "doi"=>"3963-7736", "author"=>"Maxime Mills", "journal"=>"Carroll-Stehr"}
+{"issn"=>"10.1234/altmetric289", "title"=>"Awesome Wooden Gloves", "doi"=>"6785-8641", "author"=>"Sidney Muller IV", "journal"=>"Stoltenberg-Schuppe"}
+{"issn"=>"10.1234/altmetric289", "title"=>"Rustic Rubber Car", "doi"=>"2435-5144", "author"=>"Sidney Muller IV", "journal"=>"Rogahn-Kerluke"}
+{"issn"=>"10.1234/altmetric289", "title"=>"Small Concrete Hat", "doi"=>"1334-9157", "author"=>"Sidney Muller IV", "journal"=>"Corkery Inc"}
+{"issn"=>"10.1234/altmetric29", "title"=>"Intelligent Plastic Pants", "doi"=>"2029-9252", "author"=>"Ms. Amos Ortiz", "journal"=>"Grimes, Pfannerstill and Doyle"}
+{"issn"=>"10.1234/altmetric294", "title"=>"Incredible Wooden Car", "doi"=>"2886-2562", "author"=>"Marcelino Schuster", "journal"=>"Thompson, Breitenberg and Braun"}
+{"issn"=>"10.1234/altmetric297", "title"=>"Rustic Granite Shoes", "doi"=>"8879-3737", "author"=>"Vivienne Purdy I", "journal"=>"Hermiston-Renner"}
+{"issn"=>"10.1234/altmetric299", "title"=>"Incredible Steel Car", "doi"=>"7332-1173", "author"=>"Brendon Balistreri Sr.", "journal"=>"Bernier, Cormier and Littel"}
+{"issn"=>"10.1234/altmetric3", "title"=>"Intelligent Rubber Pants", "doi"=>"1603-5335", "author"=>"Miss Angela Ratke", "journal"=>"Aufderhar-Cremin"}
+{"issn"=>"10.1234/altmetric3", "title"=>"Practical Granite Hat", "doi"=>"1271-8688", "author"=>"Miss Angela Ratke", "journal"=>"Terry-Wiegand"}
+{"issn"=>"10.1234/altmetric3", "title"=>"Rustic Granite Hat", "doi"=>"0386-5126", "author"=>"Miss Angela Ratke", "journal"=>"Larson-Stark"}
+{"issn"=>"10.1234/altmetric30", "title"=>"Practical Concrete Computer", "doi"=>"3307-4855", "author"=>"Dr. Chandler Flatley", "journal"=>"Armstrong, Kautzer and Kertzmann"}
+{"issn"=>"10.1234/altmetric302", "title"=>"Sleek Plastic Car", "doi"=>"4368-3678", "author"=>"Meaghan Steuber Sr.", "journal"=>"Vandervort, Hane and Heller"}
+{"issn"=>"10.1234/altmetric303", "title"=>"Gorgeous Wooden Shoes", "doi"=>"10615642", "author"=>"Vicente Baumbach", "journal"=>"Cole-Thompson"}
+{"issn"=>"10.1234/altmetric304", "title"=>"Practical Granite Chair", "doi"=>"3908-4681", "author"=>"Greg Kessler V", "journal"=>"Rolfson-Hessel"}
+{"issn"=>"10.1234/altmetric307", "title"=>"Practical Rubber Pants", "doi"=>"4157-2271", "author"=>"Jacinthe Johnston", "journal"=>"Veum LLC"}
+{"issn"=>"10.1234/altmetric308", "title"=>"Ergonomic Rubber Gloves", "doi"=>"2486-8886", "author"=>"Miss Richie Rolfson", "journal"=>"Mraz LLC"}
+{"issn"=>"10.1234/altmetric308", "title"=>"Incredible Plastic Car", "doi"=>"2366-1863", "author"=>"Miss Richie Rolfson", "journal"=>"Stiedemann LLC"}
+{"issn"=>"10.1234/altmetric309", "title"=>"Ergonomic Wooden Shirt", "doi"=>"1005-2565", "author"=>"Ms. Amos Ortiz", "journal"=>"Schmidt, Gislason and Heathcote"}
+{"issn"=>"10.1234/altmetric31", "title"=>"Ergonomic Wooden Car", "doi"=>"6705-1027", "author"=>"Uriel Hamill", "journal"=>"Ward-Johnson"}
+{"issn"=>"10.1234/altmetric31", "title"=>"Rustic Rubber Pants", "doi"=>"1442-9686", "author"=>"Uriel Hamill", "journal"=>"Kirlin, Littel and Collier"}
+{"issn"=>"10.1234/altmetric312", "title"=>"Small Rubber Computer", "doi"=>"9512-2584", "author"=>"Alyce Block", "journal"=>"Nolan, Okuneva and Carroll"}
+{"issn"=>"10.1234/altmetric314", "title"=>"Fantastic Wooden Chair", "doi"=>"3684-8267", "author"=>"Mr. Georgette DuBuque", "journal"=>"Homenick-Bins"}
+{"issn"=>"10.1234/altmetric315", "title"=>"Gorgeous Rubber Chair", "doi"=>"7178-0841", "author"=>"Presley Fahey", "journal"=>"Rogahn-Rice"}
+{"issn"=>"10.1234/altmetric315", "title"=>"Incredible Wooden Car", "doi"=>"2822-9396", "author"=>"Presley Fahey", "journal"=>"Bartoletti-Lebsack"}
+{"issn"=>"10.1234/altmetric315", "title"=>"Intelligent Cotton Pants", "doi"=>"8211-4592", "author"=>"Presley Fahey", "journal"=>"Reilly-Rogahn"}
+{"issn"=>"10.1234/altmetric316", "title"=>"Awesome Plastic Hat", "doi"=>"42386865", "author"=>"Dr. Kasandra Jenkins", "journal"=>"Harris, Mertz and Hermann"}
+{"issn"=>"10.1234/altmetric317", "title"=>"Gorgeous Steel Hat", "doi"=>"6337-6036", "author"=>"Ozella Lakin", "journal"=>"Bednar, Tromp and Rempel"}
+{"issn"=>"10.1234/altmetric317", "title"=>"Gorgeous Steel Table", "doi"=>"5460-5260", "author"=>"Ozella Lakin", "journal"=>"Bechtelar, Davis and Senger"}
+{"issn"=>"10.1234/altmetric319", "title"=>"Awesome Cotton Pants", "doi"=>"7469-8584", "author"=>"Mrs. Edmond Christiansen", "journal"=>"Torp, Fisher and Kovacek"}
+{"issn"=>"10.1234/altmetric321", "title"=>"Practical Concrete Gloves", "doi"=>"5166-2372", "author"=>"Howard Spinka Jr.", "journal"=>"Balistreri LLC"}
+{"issn"=>"10.1234/altmetric323", "title"=>"Practical Wooden Table", "doi"=>"6749-2713", "author"=>"Uriel Hamill", "journal"=>"Schaefer LLC"}
+{"issn"=>"10.1234/altmetric327", "title"=>"Awesome Cotton Computer", "doi"=>"2065-9562", "author"=>"Richie Cassin Sr.", "journal"=>"Bernier, Zboncak and Upton"}
+{"issn"=>"10.1234/altmetric331", "title"=>"Ergonomic Steel Shoes", "doi"=>"2778-7457", "author"=>"Mrs. Floy Dicki", "journal"=>"Windler, Reichert and Prosacco"}
+{"issn"=>"10.1234/altmetric331", "title"=>"Practical Rubber Table", "doi"=>"3165-6713", "author"=>"Mrs. Floy Dicki", "journal"=>"Hettinger, Monahan and VonRueden"}
+{"issn"=>"10.1234/altmetric332", "title"=>"Gorgeous Rubber Car", "doi"=>"2738-9740", "author"=>"Mr. Isaiah Gibson", "journal"=>"Witting-Hand"}
+{"issn"=>"10.1234/altmetric333", "title"=>"Gorgeous Granite Chair", "doi"=>"6183-1943", "author"=>"Flavie Howe", "journal"=>"Goldner, Bernhard and Mosciski"}
+{"issn"=>"10.1234/altmetric334", "title"=>"Practical Concrete Gloves", "doi"=>"1855-3425", "author"=>"Samara Reynolds", "journal"=>"Bosco-Cruickshank"}
+{"issn"=>"10.1234/altmetric334", "title"=>"Rustic Plastic Pants", "doi"=>"6725-6064", "author"=>"Samara Reynolds", "journal"=>"Deckow, Littel and Vandervort"}
+{"issn"=>"10.1234/altmetric338", "title"=>"Gorgeous Wooden Shoes", "doi"=>"1147-5723", "author"=>"Sidney Muller IV", "journal"=>"Bogisich-Jenkins"}
+{"issn"=>"10.1234/altmetric338", "title"=>"Incredible Rubber Table", "doi"=>"6244-0687", "author"=>"Sidney Muller IV", "journal"=>"Hintz, Schmeler and Morissette"}
+{"issn"=>"10.1234/altmetric340", "title"=>"Fantastic Cotton Chair", "doi"=>"1817-4888", "author"=>"Estella Predovic", "journal"=>"Rempel Inc"}
+{"issn"=>"10.1234/altmetric340", "title"=>"Sleek Rubber Computer", "doi"=>"7566-2217", "author"=>"Estella Predovic", "journal"=>"Bogisich Group"}
+{"issn"=>"10.1234/altmetric341", "title"=>"Practical Granite Shoes", "doi"=>"1250-6310", "author"=>"Richie Cassin Sr.", "journal"=>"Runolfsson-Schaden"}
+{"issn"=>"10.1234/altmetric343", "title"=>"Gorgeous Rubber Gloves", "doi"=>"4325-4426", "author"=>"Vicente Baumbach", "journal"=>"Dibbert Inc"}
+{"issn"=>"10.1234/altmetric343", "title"=>"Practical Cotton Pants", "doi"=>"7271-7294", "author"=>"Vicente Baumbach", "journal"=>"Hane-Emmerich"}
+{"issn"=>"10.1234/altmetric343", "title"=>"Sleek Plastic Gloves", "doi"=>"40682837", "author"=>"Vicente Baumbach", "journal"=>"Pacocha, Reichert and Wuckert"}
+{"issn"=>"10.1234/altmetric347", "title"=>"Incredible Granite Pants", "doi"=>"7126-8933", "author"=>"Ena Okuneva", "journal"=>"Wehner-Green"}
+{"issn"=>"10.1234/altmetric348", "title"=>"Gorgeous Granite Pants", "doi"=>"0215-7474", "author"=>"Terrell Ritchie", "journal"=>"Prohaska, Hilll and O'Conner"}
+{"issn"=>"10.1234/altmetric349", "title"=>"Awesome Plastic Shirt", "doi"=>"2885-6503", "author"=>"Greg Kessler V", "journal"=>"Sporer, Kihn and Turner"}
+{"issn"=>"10.1234/altmetric35", "title"=>"Awesome Plastic Shirt", "doi"=>"4589-8693", "author"=>"Meaghan Steuber Sr.", "journal"=>"Welch LLC"}
+{"issn"=>"10.1234/altmetric351", "title"=>"Awesome Plastic Chair", "doi"=>"1301-2039", "author"=>"Estella Predovic", "journal"=>"Prosacco Inc"}
+{"issn"=>"10.1234/altmetric353", "title"=>"Fantastic Rubber Computer", "doi"=>"8249-5787", "author"=>"Dr. Chandler Flatley", "journal"=>"Toy and Sons"}
+{"issn"=>"10.1234/altmetric354", "title"=>"Incredible Steel Chair", "doi"=>"48412355", "author"=>"Maximillia Rempel", "journal"=>"Feeney-Gutkowski"}
+{"issn"=>"10.1234/altmetric357", "title"=>"Gorgeous Granite Car", "doi"=>"4746-8743", "author"=>"Mr. Georgette DuBuque", "journal"=>"Harvey Group"}
+{"issn"=>"10.1234/altmetric360", "title"=>"Gorgeous Cotton Shirt", "doi"=>"1638-1452", "author"=>"Rebeka Koss", "journal"=>"Borer-Hahn"}
+{"issn"=>"10.1234/altmetric362", "title"=>"Ergonomic Steel Shoes", "doi"=>"1869-0523", "author"=>"Terrell Ritchie", "journal"=>"Powlowski, Kuhn and Krajcik"}
+{"issn"=>"10.1234/altmetric362", "title"=>"Rustic Granite Shirt", "doi"=>"5617-7741", "author"=>"Terrell Ritchie", "journal"=>"Welch-Kuhlman"}
+{"issn"=>"10.1234/altmetric363", "title"=>"Intelligent Plastic Table", "doi"=>"1408-7633", "author"=>"Jacinthe Johnston", "journal"=>"Erdman-Franecki"}
+{"issn"=>"10.1234/altmetric363", "title"=>"Rustic Rubber Computer", "doi"=>"5444-9542", "author"=>"Jacinthe Johnston", "journal"=>"Jaskolski, Cronin and Mayert"}
+{"issn"=>"10.1234/altmetric366", "title"=>"Awesome Cotton Shirt", "doi"=>"6772-8260", "author"=>"Marcelino Schuster", "journal"=>"Zulauf, Berge and Hartmann"}
+{"issn"=>"10.1234/altmetric366", "title"=>"Gorgeous Plastic Shirt", "doi"=>"5982-1413", "author"=>"Marcelino Schuster", "journal"=>"Skiles, Sporer and Will"}
+{"issn"=>"10.1234/altmetric367", "title"=>"Ergonomic Cotton Pants", "doi"=>"2401-4478", "author"=>"Miss Savannah Heathcote", "journal"=>"Stracke LLC"}
+{"issn"=>"10.1234/altmetric368", "title"=>"Sleek Rubber Gloves", "doi"=>"8611-3315", "author"=>"Otilia Swift", "journal"=>"Glover, Turcotte and Rowe"}
+{"issn"=>"10.1234/altmetric369", "title"=>"Intelligent Concrete Shirt", "doi"=>"3767-5256", "author"=>"Kathryn Smith II", "journal"=>"Sawayn, Schimmel and Hegmann"}
+{"issn"=>"10.1234/altmetric371", "title"=>"Fantastic Plastic Shirt", "doi"=>"8337-9477", "author"=>"Nora Johnston", "journal"=>"Zieme and Sons"}
+{"issn"=>"10.1234/altmetric372", "title"=>"Rustic Rubber Shoes", "doi"=>"56155801", "author"=>"Bennett Towne DDS", "journal"=>"Daugherty, Jakubowski and Schumm"}
+{"issn"=>"10.1234/altmetric373", "title"=>"Ergonomic Rubber Table", "doi"=>"2641-8758", "author"=>"Mrs. Floy Dicki", "journal"=>"DuBuque, Schmidt and Beahan"}
+{"issn"=>"10.1234/altmetric375", "title"=>"Incredible Wooden Pants", "doi"=>"5982-1413", "author"=>"Monserrat Heaney IV", "journal"=>"Skiles, Sporer and Will"}
+{"issn"=>"10.1234/altmetric378", "title"=>"Intelligent Steel Shoes", "doi"=>"7818-6587", "author"=>"Darion Wilderman Jr.", "journal"=>"O'Connell and Sons"}
+{"issn"=>"10.1234/altmetric38", "title"=>"Sleek Cotton Pants", "doi"=>"1370-8176", "author"=>"Melissa Heaney", "journal"=>"Stokes-Wunsch"}
+{"issn"=>"10.1234/altmetric381", "title"=>"Gorgeous Steel Shirt", "doi"=>"8735-4287", "author"=>"Ms. Amos Ortiz", "journal"=>"Kassulke-Hansen"}
+{"issn"=>"10.1234/altmetric382", "title"=>"Ergonomic Cotton Table", "doi"=>"4951-7572", "author"=>"Lysanne Swift", "journal"=>"Koepp-Hoeger"}
+{"issn"=>"10.1234/altmetric383", "title"=>"Incredible Wooden Hat", "doi"=>"5688-6579", "author"=>"Darion Wilderman Jr.", "journal"=>"Heaney, Swift and Murphy"}
+{"issn"=>"10.1234/altmetric384", "title"=>"Ergonomic Steel Hat", "doi"=>"76317807", "author"=>"Maximillia Rempel", "journal"=>"Funk-Schuppe"}
+{"issn"=>"10.1234/altmetric384", "title"=>"Practical Cotton Car", "doi"=>"6011-4094", "author"=>"Maximillia Rempel", "journal"=>"Skiles, Lynch and Lebsack"}
+{"issn"=>"10.1234/altmetric385", "title"=>"Rustic Rubber Pants", "doi"=>"7819-5603", "author"=>"Ms. Rhiannon Mertz", "journal"=>"Wunsch and Sons"}
+{"issn"=>"10.1234/altmetric392", "title"=>"Intelligent Concrete Car", "doi"=>"7480-8864", "author"=>"Lysanne Swift", "journal"=>"Gottlieb-Gleichner"}
+{"issn"=>"10.1234/altmetric395", "title"=>"Fantastic Plastic Shirt", "doi"=>"6328-7573", "author"=>"Hermina Stiedemann", "journal"=>"Kemmer, Kris and Kemmer"}
+{"issn"=>"10.1234/altmetric400", "title"=>"Small Cotton Shoes", "doi"=>"5615-5801", "author"=>"Miss Clifton Langosh", "journal"=>"Daugherty, Jakubowski and Schumm"}
+{"issn"=>"10.1234/altmetric402", "title"=>"Incredible Granite Shirt", "doi"=>"9392-0074", "author"=>"Melissa Heaney", "journal"=>"Cummerata Group"}
+{"issn"=>"10.1234/altmetric403", "title"=>"Awesome Granite Hat", "doi"=>"8399-2341", "author"=>"Colleen Okuneva IV", "journal"=>"Bednar-Kunze"}
+{"issn"=>"10.1234/altmetric404", "title"=>"Sleek Plastic Table", "doi"=>"1610-0173", "author"=>"Jacinthe Johnston", "journal"=>"Lesch-Schimmel"}
+{"issn"=>"10.1234/altmetric407", "title"=>"Intelligent Cotton Car", "doi"=>"5111-4288", "author"=>"Jacinthe Johnston", "journal"=>"Grant LLC"}
+{"issn"=>"10.1234/altmetric409", "title"=>"Ergonomic Steel Table", "doi"=>"27797014", "author"=>"Dr. Kasandra Jenkins", "journal"=>"Gusikowski, Ernser and Will"}
+{"issn"=>"10.1234/altmetric409", "title"=>"Intelligent Granite Shirt", "doi"=>"3117-2462", "author"=>"Dr. Kasandra Jenkins", "journal"=>"Mohr and Sons"}
+{"issn"=>"10.1234/altmetric412", "title"=>"Awesome Cotton Chair", "doi"=>"3355-0845", "author"=>"Bernita Von Jr.", "journal"=>"Gottlieb and Sons"}
+{"issn"=>"10.1234/altmetric413", "title"=>"Fantastic Concrete Car", "doi"=>"3177-6553", "author"=>"Oswald Kuvalis", "journal"=>"Nolan, Watsica and Yundt"}
+{"issn"=>"10.1234/altmetric415", "title"=>"Ergonomic Concrete Shoes", "doi"=>"1155-5622", "author"=>"Frederic Sanford", "journal"=>"Kuhic, O'Conner and Dickinson"}
+{"issn"=>"10.1234/altmetric420", "title"=>"Practical Granite Pants", "doi"=>"8757-5584", "author"=>"Mr. Georgette DuBuque", "journal"=>"Kris-Kovacek"}
+{"issn"=>"10.1234/altmetric422", "title"=>"Ergonomic Cotton Chair", "doi"=>"0777-6439", "author"=>"Lysanne Swift", "journal"=>"Hand-Wilkinson"}
+{"issn"=>"10.1234/altmetric424", "title"=>"Fantastic Steel Shirt", "doi"=>"15277797", "author"=>"Layla Larson", "journal"=>"Powlowski Group"}
+{"issn"=>"10.1234/altmetric429", "title"=>"Practical Granite Hat", "doi"=>"8631-6357", "author"=>"Lenny Kshlerin", "journal"=>"Greenholt-Wilkinson"}
+{"issn"=>"10.1234/altmetric431", "title"=>"Practical Rubber Shoes", "doi"=>"1347-9721", "author"=>"Sage Waters I", "journal"=>"Kiehn Group"}
+{"issn"=>"10.1234/altmetric432", "title"=>"Fantastic Steel Car", "doi"=>"5039-2276", "author"=>"Kathryn Smith II", "journal"=>"Macejkovic, Paucek and Lowe"}
+{"issn"=>"10.1234/altmetric432", "title"=>"Intelligent Granite Shoes", "doi"=>"8757-6777", "author"=>"Kathryn Smith II", "journal"=>"Hudson, Doyle and Spencer"}
+{"issn"=>"10.1234/altmetric439", "title"=>"Awesome Plastic Hat", "doi"=>"3614-5445", "author"=>"Ozella Lakin", "journal"=>"Brekke, Bartell and Brown"}
+{"issn"=>"10.1234/altmetric439", "title"=>"Ergonomic Wooden Gloves", "doi"=>"2173-5596", "author"=>"Ozella Lakin", "journal"=>"Crooks Group"}
+{"issn"=>"10.1234/altmetric439", "title"=>"Practical Plastic Shoes", "doi"=>"5372-6425", "author"=>"Ozella Lakin", "journal"=>"Ratke and Sons"}
+{"issn"=>"10.1234/altmetric440", "title"=>"Ergonomic Cotton Chair", "doi"=>"1531-7130", "author"=>"Demario Heathcote DVM", "journal"=>"Franecki, Herman and Krajcik"}
+{"issn"=>"10.1234/altmetric441", "title"=>"Practical Wooden Chair", "doi"=>"8778-2611", "author"=>"Jacinthe Johnston", "journal"=>"Osinski Group"}
+{"issn"=>"10.1234/altmetric443", "title"=>"Awesome Plastic Gloves", "doi"=>"0736-8516", "author"=>"Hermina Stiedemann", "journal"=>"Bosco and Sons"}
+{"issn"=>"10.1234/altmetric444", "title"=>"Practical Concrete Shoes", "doi"=>"8229-6263", "author"=>"Isom Haley", "journal"=>"Pacocha-Lowe"}
+{"issn"=>"10.1234/altmetric445", "title"=>"Incredible Concrete Computer", "doi"=>"9024-1117", "author"=>"Ahmad Pouros MD", "journal"=>"Cassin-Swaniawski"}
+{"issn"=>"10.1234/altmetric446", "title"=>"Sleek Granite Chair", "doi"=>"6882-3891", "author"=>"Mrs. Sterling Eichmann", "journal"=>"Mayer, Hahn and Gibson"}
+{"issn"=>"10.1234/altmetric447", "title"=>"Fantastic Granite Shoes", "doi"=>"4833-6487", "author"=>"Uriel Hamill", "journal"=>"Brown-Mayert"}
+{"issn"=>"10.1234/altmetric449", "title"=>"Ergonomic Cotton Chair", "doi"=>"2465-4952", "author"=>"Greg Kessler V", "journal"=>"Lehner, Mohr and Leannon"}
+{"issn"=>"10.1234/altmetric450", "title"=>"Gorgeous Plastic Shoes", "doi"=>"8474-5348", "author"=>"Uriel Hamill", "journal"=>"Lockman, Hahn and Davis"}
+{"issn"=>"10.1234/altmetric451", "title"=>"Ergonomic Wooden Car", "doi"=>"38417561", "author"=>"Bennett Towne DDS", "journal"=>"Gleichner and Sons"}
+{"issn"=>"10.1234/altmetric451", "title"=>"Rustic Concrete Shoes", "doi"=>"4361-7445", "author"=>"Bennett Towne DDS", "journal"=>"Zieme-Dach"}
+{"issn"=>"10.1234/altmetric452", "title"=>"Ergonomic Steel Shirt", "doi"=>"7463-5039", "author"=>"Raymundo Stamm", "journal"=>"McGlynn, Ebert and Franecki"}
+{"issn"=>"10.1234/altmetric453", "title"=>"Sleek Wooden Hat", "doi"=>"8200-3142", "author"=>"Lysanne Swift", "journal"=>"Volkman LLC"}
+{"issn"=>"10.1234/altmetric455", "title"=>"Awesome Cotton Shirt", "doi"=>"3887-4607", "author"=>"Pascale Boehm", "journal"=>"Moen, Wintheiser and Kuhlman"}
+{"issn"=>"10.1234/altmetric456", "title"=>"Sleek Rubber Shirt", "doi"=>"0088-5212", "author"=>"Ms. Vida Balistreri", "journal"=>"Thiel, Grant and Wunsch"}
+{"issn"=>"10.1234/altmetric458", "title"=>"Fantastic Plastic Hat", "doi"=>"8465-6865", "author"=>"Monserrat Heaney IV", "journal"=>"Spencer-Altenwerth"}
+{"issn"=>"10.1234/altmetric461", "title"=>"Awesome Cotton Shoes", "doi"=>"7910-7871", "author"=>"Rigoberto Hickle", "journal"=>"Wiza, Kirlin and Hoppe"}
+{"issn"=>"10.1234/altmetric461", "title"=>"Intelligent Plastic Hat", "doi"=>"1240-1326", "author"=>"Rigoberto Hickle", "journal"=>"Fay Inc"}
+{"issn"=>"10.1234/altmetric461", "title"=>"Intelligent Steel Car", "doi"=>"3423-0440", "author"=>"Rigoberto Hickle", "journal"=>"Emard Group"}
+{"issn"=>"10.1234/altmetric466", "title"=>"Intelligent Granite Shirt", "doi"=>"3474-9268", "author"=>"Jacinthe Johnston", "journal"=>"Walter, Cummings and Ruecker"}
+{"issn"=>"10.1234/altmetric467", "title"=>"Gorgeous Plastic Car", "doi"=>"1831-5643", "author"=>"Yoshiko Brakus", "journal"=>"Reichel-Pollich"}
+{"issn"=>"10.1234/altmetric467", "title"=>"Incredible Granite Table", "doi"=>"47546018", "author"=>"Yoshiko Brakus", "journal"=>"Littel-Konopelski"}
+{"issn"=>"10.1234/altmetric467", "title"=>"Incredible Rubber Pants", "doi"=>"8611-3315", "author"=>"Yoshiko Brakus", "journal"=>"Glover, Turcotte and Rowe"}
+{"issn"=>"10.1234/altmetric468", "title"=>"Intelligent Wooden Chair", "doi"=>"7499-5579", "author"=>"Dr. Dasia Corkery", "journal"=>"Pagac, Corwin and Hartmann"}
+{"issn"=>"10.1234/altmetric470", "title"=>"Intelligent Plastic Car", "doi"=>"21814322", "author"=>"Zena Kilback", "journal"=>"Boyer-Jacobi"}
+{"issn"=>"10.1234/altmetric470", "title"=>"Rustic Concrete Computer", "doi"=>"1238-8632", "author"=>"Zena Kilback", "journal"=>"Grant LLC"}
+{"issn"=>"10.1234/altmetric474", "title"=>"Incredible Concrete Shirt", "doi"=>"1610-5714", "author"=>"Maxime Mills", "journal"=>"Raynor, Ratke and Haag"}
+{"issn"=>"10.1234/altmetric481", "title"=>"Awesome Wooden Computer", "doi"=>"3373-8427", "author"=>"Colleen Okuneva IV", "journal"=>"Rodriguez Group"}
+{"issn"=>"10.1234/altmetric482", "title"=>"Practical Plastic Shoes", "doi"=>"5711-3394", "author"=>"Kathryn Smith II", "journal"=>"Cronin and Sons"}
+{"issn"=>"10.1234/altmetric484", "title"=>"Rustic Wooden Computer", "doi"=>"3419-6511", "author"=>"Terrell Ritchie", "journal"=>"Haag, Botsford and Cummerata"}
+{"issn"=>"10.1234/altmetric485", "title"=>"Intelligent Cotton Shirt", "doi"=>"3413-2625", "author"=>"Sammy Trantow", "journal"=>"Barrows Group"}
+{"issn"=>"10.1234/altmetric487", "title"=>"Ergonomic Wooden Shoes", "doi"=>"0428-1971", "author"=>"Oswald Kuvalis", "journal"=>"Senger, Rath and Hermann"}
+{"issn"=>"10.1234/altmetric489", "title"=>"Fantastic Concrete Pants", "doi"=>"4372-2804", "author"=>"Pascale Boehm", "journal"=>"Schowalter Inc"}
+{"issn"=>"10.1234/altmetric489", "title"=>"Gorgeous Concrete Table", "doi"=>"7926-5617", "author"=>"Pascale Boehm", "journal"=>"Fay Inc"}
+{"issn"=>"10.1234/altmetric491", "title"=>"Incredible Wooden Hat", "doi"=>"8378-6466", "author"=>"Miss Savannah Heathcote", "journal"=>"Maggio, Cremin and Hills"}
+{"issn"=>"10.1234/altmetric492", "title"=>"Awesome Wooden Car", "doi"=>"6024-7912", "author"=>"Randal Koelpin", "journal"=>"Hilll, Maggio and Farrell"}
+{"issn"=>"10.1234/altmetric493", "title"=>"Incredible Plastic Chair", "doi"=>"2247-2396", "author"=>"Howell Ratke", "journal"=>"Homenick-Buckridge"}
+{"issn"=>"10.1234/altmetric498", "title"=>"Rustic Granite Car", "doi"=>"43646227", "author"=>"Dr. Kasandra Jenkins", "journal"=>"Turcotte-Willms"}
+{"issn"=>"10.1234/altmetric499", "title"=>"Fantastic Concrete Car", "doi"=>"6882-3891", "author"=>"Brennon Morissette", "journal"=>"Mayer, Hahn and Gibson"}
+{"issn"=>"10.1234/altmetric50", "title"=>"Small Steel Pants", "doi"=>"5827-3187", "author"=>"Greg Kessler V", "journal"=>"Considine, Tillman and Botsford"}
+{"issn"=>"10.1234/altmetric500", "title"=>"Awesome Granite Gloves", "doi"=>"9670-3728", "author"=>"Howell Ratke", "journal"=>"Moore Group"}
+{"issn"=>"10.1234/altmetric501", "title"=>"Awesome Plastic Table", "doi"=>"7535-6816", "author"=>"Hermina Stiedemann", "journal"=>"Block LLC"}
+{"issn"=>"10.1234/altmetric503", "title"=>"Incredible Cotton Computer", "doi"=>"1260-6474", "author"=>"Seth Howell", "journal"=>"Jacobs and Sons"}
+{"issn"=>"10.1234/altmetric504", "title"=>"Gorgeous Plastic Chair", "doi"=>"5560-6236", "author"=>"Emmitt Mueller", "journal"=>"Ratke, Frami and Mertz"}
+{"issn"=>"10.1234/altmetric505", "title"=>"Practical Plastic Chair", "doi"=>"4549-6665", "author"=>"Greg Kessler V", "journal"=>"Terry-Roob"}
+{"issn"=>"10.1234/altmetric508", "title"=>"Ergonomic Plastic Shirt", "doi"=>"8743-5081", "author"=>"Brando Labadie", "journal"=>"Zboncak Group"}
+{"issn"=>"10.1234/altmetric510", "title"=>"Gorgeous Cotton Pants", "doi"=>"4141-4049", "author"=>"Ena Okuneva", "journal"=>"Macejkovic-Reynolds"}
+{"issn"=>"10.1234/altmetric511", "title"=>"Small Plastic Hat", "doi"=>"7687-8576", "author"=>"Presley Fahey", "journal"=>"Wisoky, Kirlin and Kuphal"}
+{"issn"=>"10.1234/altmetric514", "title"=>"Intelligent Wooden Car", "doi"=>"1285-6632", "author"=>"Jacinthe Johnston", "journal"=>"Smith, Cartwright and Marvin"}
+{"issn"=>"10.1234/altmetric516", "title"=>"Incredible Cotton Computer", "doi"=>"3022-9225", "author"=>"Emmitt Mueller", "journal"=>"Bechtelar, Gerlach and Graham"}
+{"issn"=>"10.1234/altmetric516", "title"=>"Practical Steel Gloves", "doi"=>"5055-1763", "author"=>"Emmitt Mueller", "journal"=>"Labadie-Monahan"}
+{"issn"=>"10.1234/altmetric518", "title"=>"Sleek Plastic Shirt", "doi"=>"8792-4401", "author"=>"Adolphus Morar", "journal"=>"Kuphal, Tremblay and Bauch"}
+{"issn"=>"10.1234/altmetric520", "title"=>"Ergonomic Rubber Computer", "doi"=>"1761-0438", "author"=>"Mrs. Floy Dicki", "journal"=>"Runolfsson and Sons"}
+{"issn"=>"10.1234/altmetric521", "title"=>"Rustic Cotton Chair", "doi"=>"8662-6327", "author"=>"Rigoberto Hickle", "journal"=>"Graham Inc"}
+{"issn"=>"10.1234/altmetric522", "title"=>"Small Plastic Car", "doi"=>"4812-3148", "author"=>"Otilia Swift", "journal"=>"Marvin LLC"}
+{"issn"=>"10.1234/altmetric523", "title"=>"Gorgeous Granite Shoes", "doi"=>"86626327", "author"=>"Dr. Kasandra Jenkins", "journal"=>"Graham Inc"}
+{"issn"=>"10.1234/altmetric523", "title"=>"Gorgeous Granite Table", "doi"=>"5854-6564", "author"=>"Dr. Kasandra Jenkins", "journal"=>"Kub, Donnelly and Schaden"}
+{"issn"=>"10.1234/altmetric524", "title"=>"Small Granite Gloves", "doi"=>"5444-9542", "author"=>"Rebeka Koss", "journal"=>"Jaskolski, Cronin and Mayert"}
+{"issn"=>"10.1234/altmetric525", "title"=>"Fantastic Rubber Shirt", "doi"=>"7469-8584", "author"=>"Adolphus Morar", "journal"=>"Torp, Fisher and Kovacek"}
+{"issn"=>"10.1234/altmetric525", "title"=>"Sleek Plastic Gloves", "doi"=>"2565-9228", "author"=>"Adolphus Morar", "journal"=>"Gulgowski Inc"}
+{"issn"=>"10.1234/altmetric526", "title"=>"Gorgeous Wooden Car", "doi"=>"4470-3510", "author"=>"Ozella Lakin", "journal"=>"Conn-Zboncak"}
+{"issn"=>"10.1234/altmetric526", "title"=>"Practical Plastic Gloves", "doi"=>"6245-6396", "author"=>"Ozella Lakin", "journal"=>"Fadel-Dickens"}
+{"issn"=>"10.1234/altmetric529", "title"=>"Gorgeous Rubber Shoes", "doi"=>"0791-8389", "author"=>"Brendon Balistreri Sr.", "journal"=>"Cummings, Connelly and Schulist"}
+{"issn"=>"10.1234/altmetric531", "title"=>"Small Rubber Table", "doi"=>"5617-4148", "author"=>"Nora Johnston", "journal"=>"Sanford-Pacocha"}
+{"issn"=>"10.1234/altmetric533", "title"=>"Ergonomic Steel Car", "doi"=>"5548-6429", "author"=>"Erich Borer Sr.", "journal"=>"Sanford, Hansen and Bednar"}
+{"issn"=>"10.1234/altmetric534", "title"=>"Small Wooden Computer", "doi"=>"6754-6563", "author"=>"Mr. Georgette Gleason", "journal"=>"Durgan-Ryan"}
+{"issn"=>"10.1234/altmetric535", "title"=>"Rustic Cotton Pants", "doi"=>"9690-7628", "author"=>"Miss Clifton Langosh", "journal"=>"Pacocha Group"}
+{"issn"=>"10.1234/altmetric54", "title"=>"Practical Steel Chair", "doi"=>"4342-2271", "author"=>"Miss Clifton Langosh", "journal"=>"Miller and Sons"}
+{"issn"=>"10.1234/altmetric541", "title"=>"Sleek Plastic Hat", "doi"=>"5125-9885", "author"=>"Mrs. Edmond Christiansen", "journal"=>"Gorczany, Leffler and Beatty"}
+{"issn"=>"10.1234/altmetric543", "title"=>"Incredible Rubber Chair", "doi"=>"3364-8578", "author"=>"Kathryn Smith II", "journal"=>"O'Connell, Witting and Schinner"}
+{"issn"=>"10.1234/altmetric544", "title"=>"Fantastic Steel Pants", "doi"=>"4554-4925", "author"=>"Seth Howell", "journal"=>"Gottlieb, Doyle and Haley"}
+{"issn"=>"10.1234/altmetric544", "title"=>"Rustic Plastic Pants", "doi"=>"6806-5882", "author"=>"Seth Howell", "journal"=>"Predovic-Larkin"}
+{"issn"=>"10.1234/altmetric545", "title"=>"Rustic Wooden Chair", "doi"=>"2932-3456", "author"=>"Meta Borer", "journal"=>"Renner, Hyatt and Emard"}
+{"issn"=>"10.1234/altmetric547", "title"=>"Intelligent Rubber Pants", "doi"=>"5536-2573", "author"=>"Richie Cassin Sr.", "journal"=>"Dooley-Leannon"}
+{"issn"=>"10.1234/altmetric547", "title"=>"Sleek Granite Shoes", "doi"=>"9808-0652", "author"=>"Richie Cassin Sr.", "journal"=>"Grimes-Leffler"}
+{"issn"=>"10.1234/altmetric550", "title"=>"Intelligent Granite Car", "doi"=>"8707-7933", "author"=>"Lysanne Swift", "journal"=>"Morissette, Abernathy and Barton"}
+{"issn"=>"10.1234/altmetric553", "title"=>"Ergonomic Cotton Hat", "doi"=>"1753-3345", "author"=>"Pascale Boehm", "journal"=>"Auer, Walsh and Reichert"}
+{"issn"=>"10.1234/altmetric555", "title"=>"Incredible Rubber Hat", "doi"=>"3384-1343", "author"=>"Nora Johnston", "journal"=>"Murphy, Aufderhar and Kuhn"}
+{"issn"=>"10.1234/altmetric557", "title"=>"Awesome Cotton Computer", "doi"=>"8792-4401", "author"=>"Vicente Baumbach", "journal"=>"Kuphal, Tremblay and Bauch"}
+{"issn"=>"10.1234/altmetric557", "title"=>"Sleek Concrete Shoes", "doi"=>"03212877", "author"=>"Vicente Baumbach", "journal"=>"Carroll-Russel"}
+{"issn"=>"10.1234/altmetric558", "title"=>"Ergonomic Wooden Hat", "doi"=>"6625-6746", "author"=>"Monserrat Heaney IV", "journal"=>"Breitenberg, Dietrich and Corkery"}
+{"issn"=>"10.1234/altmetric561", "title"=>"Ergonomic Granite Pants", "doi"=>"1368-9499", "author"=>"Kaley Muller", "journal"=>"Denesik-Corkery"}
+{"issn"=>"10.1234/altmetric563", "title"=>"Rustic Concrete Computer", "doi"=>"7388-8824", "author"=>"Oswald Kuvalis", "journal"=>"Kiehn Inc"}
+{"issn"=>"10.1234/altmetric568", "title"=>"Incredible Steel Chair", "doi"=>"87259162", "author"=>"Akeem Toy", "journal"=>"Powlowski, Dooley and Emard"}
+{"issn"=>"10.1234/altmetric57", "title"=>"Awesome Rubber Shirt", "doi"=>"6705-1027", "author"=>"Greg Kessler V", "journal"=>"Ward-Johnson"}
+{"issn"=>"10.1234/altmetric570", "title"=>"Awesome Granite Shoes", "doi"=>"9194-0221", "author"=>"Sidney Muller IV", "journal"=>"Cummings LLC"}
+{"issn"=>"10.1234/altmetric570", "title"=>"Ergonomic Concrete Shirt", "doi"=>"8315-7589", "author"=>"Sidney Muller IV", "journal"=>"Murphy, Bins and Hickle"}
+{"issn"=>"10.1234/altmetric571", "title"=>"Ergonomic Granite Computer", "doi"=>"4814-1731", "author"=>"Ms. Emilio Grady", "journal"=>"Tillman-Bergstrom"}
+{"issn"=>"10.1234/altmetric571", "title"=>"Rustic Steel Gloves", "doi"=>"7107-2132", "author"=>"Ms. Emilio Grady", "journal"=>"Connelly-Heathcote"}
+{"issn"=>"10.1234/altmetric572", "title"=>"Practical Plastic Shoes", "doi"=>"3248-7742", "author"=>"Orpha Cremin", "journal"=>"Bode and Sons"}
+{"issn"=>"10.1234/altmetric572", "title"=>"Rustic Rubber Gloves", "doi"=>"0495-4738", "author"=>"Orpha Cremin", "journal"=>"Kassulke Inc"}
+{"issn"=>"10.1234/altmetric573", "title"=>"Gorgeous Wooden Chair", "doi"=>"1697-5647", "author"=>"Katelin Wiegand", "journal"=>"Trantow Group"}
+{"issn"=>"10.1234/altmetric574", "title"=>"Rustic Rubber Hat", "doi"=>"44703510", "author"=>"Bennett Towne DDS", "journal"=>"Conn-Zboncak"}
+{"issn"=>"10.1234/altmetric577", "title"=>"Rustic Plastic Table", "doi"=>"4843-8552", "author"=>"Ms. Emilio Grady", "journal"=>"Schoen-Huels"}
+{"issn"=>"10.1234/altmetric578", "title"=>"Rustic Cotton Hat", "doi"=>"0529-5816", "author"=>"Miss Richie Rolfson", "journal"=>"Kihn Inc"}
+{"issn"=>"10.1234/altmetric579", "title"=>"Gorgeous Wooden Table", "doi"=>"8351-3303", "author"=>"Davin Effertz", "journal"=>"Harvey-Bauch"}
+{"issn"=>"10.1234/altmetric581", "title"=>"Awesome Concrete Gloves", "doi"=>"17035106", "author"=>"Vicente Baumbach", "journal"=>"Lebsack Inc"}
+{"issn"=>"10.1234/altmetric582", "title"=>"Rustic Wooden Car", "doi"=>"07824538", "author"=>"Layla Larson", "journal"=>"Toy Inc"}
+{"issn"=>"10.1234/altmetric583", "title"=>"Awesome Cotton Chair", "doi"=>"8232-7575", "author"=>"Mr. Georgette DuBuque", "journal"=>"Hudson-Muller"}
+{"issn"=>"10.1234/altmetric585", "title"=>"Ergonomic Cotton Chair", "doi"=>"8757-5584", "author"=>"Darion Wilderman Jr.", "journal"=>"Kris-Kovacek"}
+{"issn"=>"10.1234/altmetric585", "title"=>"Fantastic Rubber Computer", "doi"=>"3354-9101", "author"=>"Darion Wilderman Jr.", "journal"=>"Greenholt Group"}
+{"issn"=>"10.1234/altmetric585", "title"=>"Gorgeous Cotton Chair", "doi"=>"8924-6552", "author"=>"Darion Wilderman Jr.", "journal"=>"Marquardt-West"}
+{"issn"=>"10.1234/altmetric59", "title"=>"Sleek Granite Shirt", "doi"=>"1147-5723", "author"=>"Gilbert Hettinger", "journal"=>"Bogisich-Jenkins"}
+{"issn"=>"10.1234/altmetric59", "title"=>"Small Cotton Hat", "doi"=>"7186-1356", "author"=>"Gilbert Hettinger", "journal"=>"Frami and Sons"}
+{"issn"=>"10.1234/altmetric591", "title"=>"Awesome Cotton Car", "doi"=>"7242-9492", "author"=>"Priscilla Koch", "journal"=>"Graham-Ullrich"}
+{"issn"=>"10.1234/altmetric591", "title"=>"Gorgeous Wooden Table", "doi"=>"5915-4813", "author"=>"Priscilla Koch", "journal"=>"Koch Inc"}
+{"issn"=>"10.1234/altmetric591", "title"=>"Rustic Wooden Hat", "doi"=>"6324-1490", "author"=>"Priscilla Koch", "journal"=>"Lowe Group"}
+{"issn"=>"10.1234/altmetric595", "title"=>"Rustic Steel Table", "doi"=>"8279-4245", "author"=>"Mrs. Floy Dicki", "journal"=>"Maggio, Nicolas and Hessel"}
+{"issn"=>"10.1234/altmetric596", "title"=>"Ergonomic Steel Car", "doi"=>"2425-3625", "author"=>"Ms. Vida Balistreri", "journal"=>"Hane-Heller"}
+{"issn"=>"10.1234/altmetric597", "title"=>"Rustic Granite Shirt", "doi"=>"3151-1811", "author"=>"Sammy Trantow", "journal"=>"Rempel Group"}
+{"issn"=>"10.1234/altmetric600", "title"=>"Ergonomic Granite Table", "doi"=>"7625-3711", "author"=>"Mrs. Floy Dicki", "journal"=>"Hansen-Kub"}
+{"issn"=>"10.1234/altmetric600", "title"=>"Intelligent Granite Pants", "doi"=>"3246-6647", "author"=>"Mrs. Floy Dicki", "journal"=>"Schowalter Inc"}
+{"issn"=>"10.1234/altmetric601", "title"=>"Intelligent Concrete Pants", "doi"=>"2246-3375", "author"=>"Brando Lakin V", "journal"=>"Borer, Simonis and O'Keefe"}
+{"issn"=>"10.1234/altmetric602", "title"=>"Awesome Cotton Shoes", "doi"=>"47430693", "author"=>"Aracely Schneider", "journal"=>"Herzog, McLaughlin and O'Conner"}
+{"issn"=>"10.1234/altmetric602", "title"=>"Gorgeous Steel Shirt", "doi"=>"1441-0398", "author"=>"Aracely Schneider", "journal"=>"Larkin, Considine and Hudson"}
+{"issn"=>"10.1234/altmetric603", "title"=>"Sleek Plastic Pants", "doi"=>"4757-8261", "author"=>"Lenny Kshlerin", "journal"=>"Brakus-Lebsack"}
+{"issn"=>"10.1234/altmetric604", "title"=>"Incredible Wooden Chair", "doi"=>"4361-4534", "author"=>"Sammy Trantow", "journal"=>"Champlin, Jacobson and Stehr"}
+{"issn"=>"10.1234/altmetric61", "title"=>"Gorgeous Plastic Chair", "doi"=>"7152-1502", "author"=>"Emmitt Mueller", "journal"=>"Goodwin, Price and Connelly"}
+{"issn"=>"10.1234/altmetric61", "title"=>"Intelligent Plastic Hat", "doi"=>"5633-4102", "author"=>"Emmitt Mueller", "journal"=>"Hoppe, McGlynn and McLaughlin"}
+{"issn"=>"10.1234/altmetric611", "title"=>"Incredible Granite Car", "doi"=>"8729-6649", "author"=>"Mrs. Floy Dicki", "journal"=>"Thompson, Stehr and Hane"}
+{"issn"=>"10.1234/altmetric613", "title"=>"Incredible Cotton Shirt", "doi"=>"31549128", "author"=>"Annamarie Nader", "journal"=>"Heidenreich, Ullrich and Rolfson"}
+{"issn"=>"10.1234/altmetric613", "title"=>"Practical Concrete Chair", "doi"=>"9115-4570", "author"=>"Annamarie Nader", "journal"=>"Franecki LLC"}
+{"issn"=>"10.1234/altmetric617", "title"=>"Ergonomic Granite Shirt", "doi"=>"4877-4668", "author"=>"Brando Lakin V", "journal"=>"Von-Vandervort"}
+{"issn"=>"10.1234/altmetric62", "title"=>"Gorgeous Wooden Hat", "doi"=>"5617-4148", "author"=>"Maxime Mills", "journal"=>"Sanford-Pacocha"}
+{"issn"=>"10.1234/altmetric621", "title"=>"Sleek Plastic Chair", "doi"=>"0791-8389", "author"=>"Ms. Vida Balistreri", "journal"=>"Cummings, Connelly and Schulist"}
+{"issn"=>"10.1234/altmetric622", "title"=>"Sleek Cotton Computer", "doi"=>"2270-8081", "author"=>"Perry Ondricka", "journal"=>"Kilback, Rice and McLaughlin"}
+{"issn"=>"10.1234/altmetric622", "title"=>"Sleek Plastic Shirt", "doi"=>"6314-0626", "author"=>"Perry Ondricka", "journal"=>"Schoen Group"}
+{"issn"=>"10.1234/altmetric623", "title"=>"Intelligent Concrete Car", "doi"=>"1831-5643", "author"=>"Darion Wilderman Jr.", "journal"=>"Reichel-Pollich"}
+{"issn"=>"10.1234/altmetric626", "title"=>"Awesome Cotton Chair", "doi"=>"4871-1850", "author"=>"Pascale Boehm", "journal"=>"Boyer-Hayes"}
+{"issn"=>"10.1234/altmetric626", "title"=>"Incredible Granite Shirt", "doi"=>"6301-3825", "author"=>"Pascale Boehm", "journal"=>"Schaden and Sons"}
+{"issn"=>"10.1234/altmetric626", "title"=>"Practical Cotton Pants", "doi"=>"0711-5119", "author"=>"Pascale Boehm", "journal"=>"Wisoky-Gulgowski"}
+{"issn"=>"10.1234/altmetric627", "title"=>"Rustic Granite Car", "doi"=>"5929-4022", "author"=>"Ms. Ella Lynch", "journal"=>"Hoeger-Gulgowski"}
+{"issn"=>"10.1234/altmetric63", "title"=>"Awesome Plastic Table", "doi"=>"5455-8165", "author"=>"Pascale Boehm", "journal"=>"Lakin, Barton and Corwin"}
+{"issn"=>"10.1234/altmetric630", "title"=>"Fantastic Wooden Hat", "doi"=>"6342-5172", "author"=>"Emmitt Mueller", "journal"=>"Boyle-Stehr"}
+{"issn"=>"10.1234/altmetric630", "title"=>"Gorgeous Steel Shoes", "doi"=>"5366-9821", "author"=>"Emmitt Mueller", "journal"=>"Moen-Predovic"}
+{"issn"=>"10.1234/altmetric631", "title"=>"Practical Rubber Shirt", "doi"=>"2822-9396", "author"=>"Frederic Sanford", "journal"=>"Bartoletti-Lebsack"}
+{"issn"=>"10.1234/altmetric634", "title"=>"Practical Rubber Table", "doi"=>"8274-5775", "author"=>"Kathryn Smith II", "journal"=>"Stroman, O'Connell and Satterfield"}
+{"issn"=>"10.1234/altmetric636", "title"=>"Fantastic Concrete Gloves", "doi"=>"16225733", "author"=>"Ms. Emilio Grady", "journal"=>"Senger LLC"}
+{"issn"=>"10.1234/altmetric636", "title"=>"Incredible Steel Computer", "doi"=>"6013-5457", "author"=>"Ms. Emilio Grady", "journal"=>"Little, Dooley and Bauch"}
+{"issn"=>"10.1234/altmetric636", "title"=>"Practical Plastic Chair", "doi"=>"1368-9499", "author"=>"Ms. Emilio Grady", "journal"=>"Denesik-Corkery"}
+{"issn"=>"10.1234/altmetric636", "title"=>"Rustic Wooden Gloves", "doi"=>"9446-2746", "author"=>"Ms. Emilio Grady", "journal"=>"Okuneva, Hintz and Stark"}
+{"issn"=>"10.1234/altmetric637", "title"=>"Intelligent Steel Shoes", "doi"=>"4673-5784", "author"=>"Howard Spinka Jr.", "journal"=>"Huels Group"}
+{"issn"=>"10.1234/altmetric639", "title"=>"Intelligent Steel Computer", "doi"=>"4133-5336", "author"=>"Ozella Lakin", "journal"=>"Schiller, Simonis and Hilpert"}
+{"issn"=>"10.1234/altmetric642", "title"=>"Awesome Granite Hat", "doi"=>"7515-3732", "author"=>"Brendon Balistreri Sr.", "journal"=>"Kshlerin-Ankunding"}
+{"issn"=>"10.1234/altmetric645", "title"=>"Practical Rubber Gloves", "doi"=>"7697-6672", "author"=>"Dr. Dasia Corkery", "journal"=>"DuBuque Inc"}
+{"issn"=>"10.1234/altmetric65", "title"=>"Small Granite Pants", "doi"=>"4732-1082", "author"=>"Miss Martina Ward", "journal"=>"Sanford, Abernathy and Lowe"}
+{"issn"=>"10.1234/altmetric650", "title"=>"Practical Cotton Pants", "doi"=>"7631-7807", "author"=>"Presley Fahey", "journal"=>"Funk-Schuppe"}
+{"issn"=>"10.1234/altmetric651", "title"=>"Fantastic Plastic Shirt", "doi"=>"2920-2728", "author"=>"Meta Borer", "journal"=>"Schaefer, Hegmann and Tromp"}
+{"issn"=>"10.1234/altmetric652", "title"=>"Rustic Steel Car", "doi"=>"8279-4245", "author"=>"Amari Lubowitz", "journal"=>"Maggio, Nicolas and Hessel"}
+{"issn"=>"10.1234/altmetric654", "title"=>"Ergonomic Steel Table", "doi"=>"7136-5517", "author"=>"Seth Howell", "journal"=>"Mayer-Reichel"}
+{"issn"=>"10.1234/altmetric656", "title"=>"Practical Concrete Shoes", "doi"=>"4778-8294", "author"=>"Estella Predovic", "journal"=>"Romaguera Inc"}
+{"issn"=>"10.1234/altmetric657", "title"=>"Awesome Plastic Car", "doi"=>"4113-7822", "author"=>"Miss Savannah Heathcote", "journal"=>"Lowe Inc"}
+{"issn"=>"10.1234/altmetric658", "title"=>"Ergonomic Wooden Computer", "doi"=>"0809-3257", "author"=>"Davin Effertz", "journal"=>"Batz, Smith and Williamson"}
+{"issn"=>"10.1234/altmetric658", "title"=>"Sleek Concrete Shirt", "doi"=>"8337-9477", "author"=>"Davin Effertz", "journal"=>"Zieme and Sons"}
+{"issn"=>"10.1234/altmetric66", "title"=>"Fantastic Plastic Pants", "doi"=>"4072-1425", "author"=>"Erich Borer Sr.", "journal"=>"Corkery-Feil"}
+{"issn"=>"10.1234/altmetric661", "title"=>"Fantastic Rubber Chair", "doi"=>"3324-7837", "author"=>"Hermina Stiedemann", "journal"=>"Miller Group"}
+{"issn"=>"10.1234/altmetric661", "title"=>"Incredible Rubber Shirt", "doi"=>"5957-2817", "author"=>"Hermina Stiedemann", "journal"=>"Ortiz LLC"}
+{"issn"=>"10.1234/altmetric661", "title"=>"Incredible Steel Chair", "doi"=>"5042-6766", "author"=>"Hermina Stiedemann", "journal"=>"Bergstrom, Christiansen and D'Amore"}
+{"issn"=>"10.1234/altmetric661", "title"=>"Small Plastic Pants", "doi"=>"4939-6274", "author"=>"Hermina Stiedemann", "journal"=>"Kovacek Inc"}
+{"issn"=>"10.1234/altmetric666", "title"=>"Fantastic Steel Shirt", "doi"=>"6704-0825", "author"=>"Adolphus Morar", "journal"=>"Nolan and Sons"}
+{"issn"=>"10.1234/altmetric669", "title"=>"Awesome Granite Table", "doi"=>"0814-3861", "author"=>"Rebeka Koss", "journal"=>"Leuschke, Jones and Runolfsson"}
+{"issn"=>"10.1234/altmetric677", "title"=>"Gorgeous Cotton Table", "doi"=>"5821-4745", "author"=>"Ms. Ella Lynch", "journal"=>"Bailey-Huels"}
+{"issn"=>"10.1234/altmetric677", "title"=>"Small Concrete Car", "doi"=>"1712-8169", "author"=>"Ms. Ella Lynch", "journal"=>"Kuhlman, Aufderhar and Auer"}
+{"issn"=>"10.1234/altmetric68", "title"=>"Awesome Steel Hat", "doi"=>"5248-3976", "author"=>"Ms. Emilio Grady", "journal"=>"Padberg, Hettinger and Greenholt"}
+{"issn"=>"10.1234/altmetric681", "title"=>"Incredible Plastic Hat", "doi"=>"4866-8484", "author"=>"Lenny Kshlerin", "journal"=>"Carter-Durgan"}
+{"issn"=>"10.1234/altmetric684", "title"=>"Ergonomic Cotton Car", "doi"=>"6974-5422", "author"=>"Meaghan Steuber Sr.", "journal"=>"Graham-Swaniawski"}
+{"issn"=>"10.1234/altmetric684", "title"=>"Gorgeous Rubber Shoes", "doi"=>"2886-2562", "author"=>"Meaghan Steuber Sr.", "journal"=>"Thompson, Breitenberg and Braun"}
+{"issn"=>"10.1234/altmetric684", "title"=>"Incredible Rubber Computer", "doi"=>"2704-1028", "author"=>"Meaghan Steuber Sr.", "journal"=>"Quitzon-Boehm"}
+{"issn"=>"10.1234/altmetric685", "title"=>"Small Wooden Pants", "doi"=>"5693-5386", "author"=>"Perry Ondricka", "journal"=>"Kihn, Gutmann and Corwin"}
+{"issn"=>"10.1234/altmetric689", "title"=>"Awesome Granite Car", "doi"=>"24452848", "author"=>"Bennett Towne DDS", "journal"=>"Zboncak-Hermiston"}
+{"issn"=>"10.1234/altmetric690", "title"=>"Practical Cotton Hat", "doi"=>"8757-5584", "author"=>"Dr. Dasia Corkery", "journal"=>"Kris-Kovacek"}
+{"issn"=>"10.1234/altmetric692", "title"=>"Gorgeous Rubber Table", "doi"=>"7013-1708", "author"=>"Katelin Wiegand", "journal"=>"Haley Inc"}
+{"issn"=>"10.1234/altmetric696", "title"=>"Awesome Plastic Chair", "doi"=>"2588-2068", "author"=>"Marcelino Schuster", "journal"=>"Donnelly-Jacobs"}
+{"issn"=>"10.1234/altmetric696", "title"=>"Rustic Rubber Car", "doi"=>"0222-9942", "author"=>"Marcelino Schuster", "journal"=>"Hodkiewicz-Carroll"}
+{"issn"=>"10.1234/altmetric70", "title"=>"Small Granite Shoes", "doi"=>"9858-3024", "author"=>"Brando Lakin V", "journal"=>"Weber-Maggio"}
+{"issn"=>"10.1234/altmetric701", "title"=>"Awesome Concrete Chair", "doi"=>"7745-0694", "author"=>"Howard Spinka Jr.", "journal"=>"Tremblay-Stoltenberg"}
+{"issn"=>"10.1234/altmetric703", "title"=>"Ergonomic Steel Shirt", "doi"=>"1827-8841", "author"=>"Bernita Von Jr.", "journal"=>"Cummerata Group"}
+{"issn"=>"10.1234/altmetric705", "title"=>"Small Concrete Chair", "doi"=>"4746-8743", "author"=>"Richie Cassin Sr.", "journal"=>"Harvey Group"}
+{"issn"=>"10.1234/altmetric705", "title"=>"Small Wooden Computer", "doi"=>"2129-2328", "author"=>"Richie Cassin Sr.", "journal"=>"Doyle-Zieme"}
+{"issn"=>"10.1234/altmetric713", "title"=>"Rustic Granite Pants", "doi"=>"4469-7507", "author"=>"Melissa Heaney", "journal"=>"Schamberger LLC"}
+{"issn"=>"10.1234/altmetric719", "title"=>"Rustic Rubber Car", "doi"=>"7314-8068", "author"=>"Kathryn Smith II", "journal"=>"Waelchi Inc"}
+{"issn"=>"10.1234/altmetric720", "title"=>"Incredible Granite Chair", "doi"=>"9670-3728", "author"=>"Meta Borer", "journal"=>"Moore Group"}
+{"issn"=>"10.1234/altmetric722", "title"=>"Practical Steel Hat", "doi"=>"3112-7657", "author"=>"Presley Fahey", "journal"=>"Jacobs, Jenkins and Schinner"}
+{"issn"=>"10.1234/altmetric724", "title"=>"Gorgeous Cotton Car", "doi"=>"8229-6263", "author"=>"Howell Ratke", "journal"=>"Pacocha-Lowe"}
+{"issn"=>"10.1234/altmetric725", "title"=>"Intelligent Concrete Hat", "doi"=>"9241-3535", "author"=>"Sidney Muller IV", "journal"=>"Lockman, Wolf and Anderson"}
+{"issn"=>"10.1234/altmetric726", "title"=>"Intelligent Rubber Chair", "doi"=>"0768-9664", "author"=>"Richie Cassin Sr.", "journal"=>"Quigley, Halvorson and Wiza"}
+{"issn"=>"10.1234/altmetric726", "title"=>"Rustic Concrete Hat", "doi"=>"7651-7893", "author"=>"Richie Cassin Sr.", "journal"=>"Hyatt-Goodwin"}
+{"issn"=>"10.1234/altmetric727", "title"=>"Awesome Wooden Computer", "doi"=>"2855-1607", "author"=>"Dr. Dasia Corkery", "journal"=>"O'Reilly-Robel"}
+{"issn"=>"10.1234/altmetric734", "title"=>"Intelligent Rubber Computer", "doi"=>"2771-4463", "author"=>"Sammy Trantow", "journal"=>"Hand Inc"}
+{"issn"=>"10.1234/altmetric736", "title"=>"Gorgeous Rubber Gloves", "doi"=>"52450933", "author"=>"Annamarie Nader", "journal"=>"Hickle-Jaskolski"}
+{"issn"=>"10.1234/altmetric74", "title"=>"Fantastic Concrete Shirt", "doi"=>"9032-5784", "author"=>"Nora Johnston", "journal"=>"Mraz Inc"}
+{"issn"=>"10.1234/altmetric740", "title"=>"Awesome Granite Pants", "doi"=>"0258-2413", "author"=>"Presley Fahey", "journal"=>"Schuster-Swaniawski"}
+{"issn"=>"10.1234/altmetric744", "title"=>"Ergonomic Concrete Chair", "doi"=>"2445-2848", "author"=>"Miss Clifton Langosh", "journal"=>"Zboncak-Hermiston"}
+{"issn"=>"10.1234/altmetric747", "title"=>"Ergonomic Steel Car", "doi"=>"5026-2897", "author"=>"Dr. Chandler Flatley", "journal"=>"Hamill, Grant and Dietrich"}
+{"issn"=>"10.1234/altmetric747", "title"=>"Intelligent Wooden Shoes", "doi"=>"7582-9940", "author"=>"Dr. Chandler Flatley", "journal"=>"Cronin, Hartmann and Swaniawski"}
+{"issn"=>"10.1234/altmetric748", "title"=>"Practical Plastic Computer", "doi"=>"9131-7654", "author"=>"Mrs. Sterling Eichmann", "journal"=>"Lubowitz LLC"}
+{"issn"=>"10.1234/altmetric748", "title"=>"Small Rubber Hat", "doi"=>"3173-3488", "author"=>"Mrs. Sterling Eichmann", "journal"=>"Gerhold, Heathcote and Kovacek"}
+{"issn"=>"10.1234/altmetric75", "title"=>"Awesome Concrete Car", "doi"=>"1238-8632", "author"=>"Sage Waters I", "journal"=>"Grant LLC"}
+{"issn"=>"10.1234/altmetric753", "title"=>"Intelligent Cotton Shirt", "doi"=>"0176-3381", "author"=>"Marcelino Schuster", "journal"=>"Kihn-Stamm"}
+{"issn"=>"10.1234/altmetric754", "title"=>"Rustic Rubber Shirt", "doi"=>"6745-4553", "author"=>"Katelin Wiegand", "journal"=>"Robel-Runolfsson"}
+{"issn"=>"10.1234/altmetric757", "title"=>"Intelligent Wooden Car", "doi"=>"8251-3489", "author"=>"Marcelino Schuster", "journal"=>"Medhurst, Larkin and Hackett"}
+{"issn"=>"10.1234/altmetric757", "title"=>"Rustic Rubber Gloves", "doi"=>"1085-4412", "author"=>"Marcelino Schuster", "journal"=>"Donnelly Inc"}
+{"issn"=>"10.1234/altmetric758", "title"=>"Intelligent Cotton Car", "doi"=>"28384244", "author"=>"Miss Kirsten Stiedemann", "journal"=>"Rutherford-Hand"}
+{"issn"=>"10.1234/altmetric758", "title"=>"Small Cotton Table", "doi"=>"9729-0556", "author"=>"Miss Kirsten Stiedemann", "journal"=>"Cremin, Tillman and Hauck"}
+{"issn"=>"10.1234/altmetric76", "title"=>"Fantastic Steel Computer", "doi"=>"8482-7296", "author"=>"Miss Richie Rolfson", "journal"=>"Yundt, Kuvalis and Corkery"}
+{"issn"=>"10.1234/altmetric761", "title"=>"Incredible Concrete Gloves", "doi"=>"8851-5159", "author"=>"Priscilla Koch", "journal"=>"Carter, Kris and Aufderhar"}
+{"issn"=>"10.1234/altmetric761", "title"=>"Incredible Rubber Table", "doi"=>"6457-7841", "author"=>"Priscilla Koch", "journal"=>"Dietrich Group"}
+{"issn"=>"10.1234/altmetric765", "title"=>"Small Plastic Gloves", "doi"=>"0165-5467", "author"=>"Meaghan Steuber Sr.", "journal"=>"Effertz-Lang"}
+{"issn"=>"10.1234/altmetric770", "title"=>"Awesome Cotton Pants", "doi"=>"9536-1604", "author"=>"Bernita Von Jr.", "journal"=>"Kutch-Romaguera"}
+{"issn"=>"10.1234/altmetric770", "title"=>"Practical Steel Hat", "doi"=>"2870-7357", "author"=>"Bernita Von Jr.", "journal"=>"Shanahan, Cormier and Auer"}
+{"issn"=>"10.1234/altmetric771", "title"=>"Incredible Wooden Shoes", "doi"=>"8399-2341", "author"=>"Lucile Stamm V", "journal"=>"Bednar-Kunze"}
+{"issn"=>"10.1234/altmetric772", "title"=>"Ergonomic Plastic Chair", "doi"=>"4562-1383", "author"=>"Seth Howell", "journal"=>"Rempel Inc"}
+{"issn"=>"10.1234/altmetric780", "title"=>"Intelligent Granite Pants", "doi"=>"3830-2705", "author"=>"Sage Waters I", "journal"=>"Miller, Gorczany and Davis"}
+{"issn"=>"10.1234/altmetric781", "title"=>"Incredible Steel Car", "doi"=>"3830-2705", "author"=>"Mrs. Edmond Christiansen", "journal"=>"Miller, Gorczany and Davis"}
+{"issn"=>"10.1234/altmetric785", "title"=>"Rustic Cotton Shoes", "doi"=>"8128-3937", "author"=>"Presley Fahey", "journal"=>"Ankunding, Johns and Goodwin"}
+{"issn"=>"10.1234/altmetric786", "title"=>"Ergonomic Cotton Shirt", "doi"=>"8685-3579", "author"=>"Ahmad Pouros MD", "journal"=>"Cartwright-Cummings"}
+{"issn"=>"10.1234/altmetric788", "title"=>"Fantastic Concrete Hat", "doi"=>"8950-9037", "author"=>"Miss Martina Ward", "journal"=>"Hane, Langworth and Reichert"}
+{"issn"=>"10.1234/altmetric790", "title"=>"Small Concrete Shoes", "doi"=>"6668-3047", "author"=>"Estella Predovic", "journal"=>"O'Connell-Beatty"}
+{"issn"=>"10.1234/altmetric794", "title"=>"Practical Granite Pants", "doi"=>"7145-0577", "author"=>"Ms. Amos Ortiz", "journal"=>"Gorczany-Spinka"}
+{"issn"=>"10.1234/altmetric795", "title"=>"Intelligent Steel Table", "doi"=>"4673-5784", "author"=>"Mr. Isaiah Gibson", "journal"=>"Huels Group"}
+{"issn"=>"10.1234/altmetric805", "title"=>"Incredible Concrete Shirt", "doi"=>"8738-0753", "author"=>"Mr. Isaiah Gibson", "journal"=>"Hyatt Group"}
+{"issn"=>"10.1234/altmetric806", "title"=>"Rustic Concrete Computer", "doi"=>"7536-7512", "author"=>"Ahmad Pouros MD", "journal"=>"Ebert-Mills"}
+{"issn"=>"10.1234/altmetric807", "title"=>"Gorgeous Rubber Gloves", "doi"=>"34377421", "author"=>"Yoshiko Brakus", "journal"=>"Gerhold-Bednar"}
+{"issn"=>"10.1234/altmetric807", "title"=>"Rustic Wooden Car", "doi"=>"1066-0564", "author"=>"Yoshiko Brakus", "journal"=>"Johns, Maggio and Heathcote"}
+{"issn"=>"10.1234/altmetric809", "title"=>"Gorgeous Concrete Chair", "doi"=>"6535-2431", "author"=>"Mr. Isaiah Gibson", "journal"=>"Marks-Cartwright"}
+{"issn"=>"10.1234/altmetric81", "title"=>"Intelligent Concrete Hat", "doi"=>"5676-4509", "author"=>"Bernita Von Jr.", "journal"=>"Rodriguez and Sons"}
+{"issn"=>"10.1234/altmetric812", "title"=>"Practical Rubber Computer", "doi"=>"0814-3861", "author"=>"Bernita Von Jr.", "journal"=>"Leuschke, Jones and Runolfsson"}
+{"issn"=>"10.1234/altmetric813", "title"=>"Intelligent Granite Pants", "doi"=>"1527-7797", "author"=>"Monserrat Heaney IV", "journal"=>"Powlowski Group"}
+{"issn"=>"10.1234/altmetric814", "title"=>"Gorgeous Steel Car", "doi"=>"8611-3315", "author"=>"Samara Reynolds", "journal"=>"Glover, Turcotte and Rowe"}
+{"issn"=>"10.1234/altmetric815", "title"=>"Gorgeous Concrete Gloves", "doi"=>"6372-2723", "author"=>"Samara Reynolds", "journal"=>"Schaefer-Nikolaus"}
+{"issn"=>"10.1234/altmetric816", "title"=>"Ergonomic Granite Hat", "doi"=>"8172-2536", "author"=>"Miss Martina Ward", "journal"=>"Carter-Leannon"}
+{"issn"=>"10.1234/altmetric816", "title"=>"Gorgeous Plastic Computer", "doi"=>"2778-7457", "author"=>"Miss Martina Ward", "journal"=>"Windler, Reichert and Prosacco"}
+{"issn"=>"10.1234/altmetric817", "title"=>"Gorgeous Cotton Hat", "doi"=>"4588-6787", "author"=>"Brando Labadie", "journal"=>"Gusikowski Inc"}
+{"issn"=>"10.1234/altmetric820", "title"=>"Fantastic Cotton Chair", "doi"=>"31733488", "author"=>"Akeem Toy", "journal"=>"Gerhold, Heathcote and Kovacek"}
+{"issn"=>"10.1234/altmetric820", "title"=>"Fantastic Cotton Hat", "doi"=>"15111103", "author"=>"Akeem Toy", "journal"=>"King Group"}
+{"issn"=>"10.1234/altmetric821", "title"=>"Awesome Granite Computer", "doi"=>"2813-1816", "author"=>"Emmitt Mueller", "journal"=>"Kuhic, Raynor and Schamberger"}
+{"issn"=>"10.1234/altmetric821", "title"=>"Practical Granite Hat", "doi"=>"3307-4855", "author"=>"Emmitt Mueller", "journal"=>"Armstrong, Kautzer and Kertzmann"}
+{"issn"=>"10.1234/altmetric821", "title"=>"Sleek Cotton Shoes", "doi"=>"8534-7621", "author"=>"Emmitt Mueller", "journal"=>"Goldner, Cassin and Beer"}
+{"issn"=>"10.1234/altmetric822", "title"=>"Fantastic Granite Computer", "doi"=>"0736-8516", "author"=>"Bernita Von Jr.", "journal"=>"Bosco and Sons"}
+{"issn"=>"10.1234/altmetric822", "title"=>"Fantastic Wooden Chair", "doi"=>"8666-5162", "author"=>"Bernita Von Jr.", "journal"=>"Gislason-Kohler"}
+{"issn"=>"10.1234/altmetric823", "title"=>"Awesome Cotton Shirt", "doi"=>"2366-1863", "author"=>"Miss Richie Rolfson", "journal"=>"Stiedemann LLC"}
+{"issn"=>"10.1234/altmetric824", "title"=>"Fantastic Steel Shoes", "doi"=>"7388-8824", "author"=>"Howell Ratke", "journal"=>"Kiehn Inc"}
+{"issn"=>"10.1234/altmetric825", "title"=>"Ergonomic Wooden Gloves", "doi"=>"8399-2341", "author"=>"Jeramy Conroy", "journal"=>"Bednar-Kunze"}
+{"issn"=>"10.1234/altmetric825", "title"=>"Incredible Steel Pants", "doi"=>"8879-3737", "author"=>"Jeramy Conroy", "journal"=>"Hermiston-Renner"}
+{"issn"=>"10.1234/altmetric825", "title"=>"Rustic Rubber Shirt", "doi"=>"5125-9885", "author"=>"Jeramy Conroy", "journal"=>"Gorczany, Leffler and Beatty"}
+{"issn"=>"10.1234/altmetric827", "title"=>"Practical Wooden Table", "doi"=>"5289-3298", "author"=>"Mrs. Floy Dicki", "journal"=>"Williamson and Sons"}
+{"issn"=>"10.1234/altmetric827", "title"=>"Rustic Steel Chair", "doi"=>"7231-5181", "author"=>"Mrs. Floy Dicki", "journal"=>"Kihn, Casper and VonRueden"}
+{"issn"=>"10.1234/altmetric829", "title"=>"Small Wooden Car", "doi"=>"91940221", "author"=>"Annamarie Nader", "journal"=>"Cummings LLC"}
+{"issn"=>"10.1234/altmetric83", "title"=>"Incredible Concrete Shirt", "doi"=>"1753-3345", "author"=>"Estella Predovic", "journal"=>"Auer, Walsh and Reichert"}
+{"issn"=>"10.1234/altmetric83", "title"=>"Practical Concrete Car", "doi"=>"4131-3754", "author"=>"Estella Predovic", "journal"=>"Carter and Sons"}
+{"issn"=>"10.1234/altmetric831", "title"=>"Intelligent Cotton Gloves", "doi"=>"32648846", "author"=>"Annamarie Nader", "journal"=>"Kunde-Robel"}
+{"issn"=>"10.1234/altmetric832", "title"=>"Practical Concrete Shoes", "doi"=>"1860-2552", "author"=>"Greg Kessler V", "journal"=>"Lebsack, White and Aufderhar"}
+{"issn"=>"10.1234/altmetric833", "title"=>"Small Concrete Shirt", "doi"=>"7117-3884", "author"=>"Brando Labadie", "journal"=>"Breitenberg, Conn and Wintheiser"}
+{"issn"=>"10.1234/altmetric835", "title"=>"Fantastic Cotton Car", "doi"=>"3087-2113", "author"=>"Kathryn Smith II", "journal"=>"Gorczany-Predovic"}
+{"issn"=>"10.1234/altmetric835", "title"=>"Small Cotton Pants", "doi"=>"3324-7837", "author"=>"Kathryn Smith II", "journal"=>"Miller Group"}
+{"issn"=>"10.1234/altmetric836", "title"=>"Gorgeous Steel Shoes", "doi"=>"6463-1886", "author"=>"Uriel Hamill", "journal"=>"Haley Group"}
+{"issn"=>"10.1234/altmetric836", "title"=>"Sleek Plastic Car", "doi"=>"5455-8165", "author"=>"Uriel Hamill", "journal"=>"Lakin, Barton and Corwin"}
+{"issn"=>"10.1234/altmetric837", "title"=>"Gorgeous Steel Chair", "doi"=>"5121-7813", "author"=>"Seth Howell", "journal"=>"Kohler, Bayer and Stoltenberg"}
+{"issn"=>"10.1234/altmetric843", "title"=>"Incredible Rubber Car", "doi"=>"8482-7296", "author"=>"Mrs. Guillermo Rutherford", "journal"=>"Yundt, Kuvalis and Corkery"}
+{"issn"=>"10.1234/altmetric844", "title"=>"Fantastic Granite Computer", "doi"=>"3419-6511", "author"=>"Brendon Balistreri Sr.", "journal"=>"Haag, Botsford and Cummerata"}
+{"issn"=>"10.1234/altmetric846", "title"=>"Fantastic Plastic Hat", "doi"=>"61878741", "author"=>"Akeem Toy", "journal"=>"Corkery, Denesik and Beahan"}
+{"issn"=>"10.1234/altmetric847", "title"=>"Awesome Steel Shirt", "doi"=>"6264-3507", "author"=>"Ms. Amos Ortiz", "journal"=>"McLaughlin-Franecki"}
+{"issn"=>"10.1234/altmetric849", "title"=>"Sleek Rubber Car", "doi"=>"3155-4114", "author"=>"Ena Okuneva", "journal"=>"Larkin, Kovacek and Leannon"}
+{"issn"=>"10.1234/altmetric85", "title"=>"Gorgeous Concrete Chair", "doi"=>"6418-1601", "author"=>"Meta Borer", "journal"=>"Luettgen, Reynolds and Ebert"}
+{"issn"=>"10.1234/altmetric85", "title"=>"Small Plastic Hat", "doi"=>"1260-6474", "author"=>"Meta Borer", "journal"=>"Jacobs and Sons"}
+{"issn"=>"10.1234/altmetric852", "title"=>"Incredible Rubber Car", "doi"=>"48356816", "author"=>"Zena Kilback", "journal"=>"Goldner-Homenick"}
+{"issn"=>"10.1234/altmetric853", "title"=>"Sleek Concrete Shirt", "doi"=>"8871-5976", "author"=>"Lenny Kshlerin", "journal"=>"Wiegand, Kirlin and Ebert"}
+{"issn"=>"10.1234/altmetric854", "title"=>"Practical Rubber Car", "doi"=>"2771-4463", "author"=>"Terrell Ritchie", "journal"=>"Hand Inc"}
+{"issn"=>"10.1234/altmetric854", "title"=>"Rustic Granite Car", "doi"=>"6532-9831", "author"=>"Terrell Ritchie", "journal"=>"Towne-Medhurst"}
+{"issn"=>"10.1234/altmetric855", "title"=>"Gorgeous Rubber Shoes", "doi"=>"5688-6579", "author"=>"Adolphus Morar", "journal"=>"Heaney, Swift and Murphy"}
+{"issn"=>"10.1234/altmetric856", "title"=>"Gorgeous Cotton Computer", "doi"=>"7042-3611", "author"=>"Demario Heathcote DVM", "journal"=>"Marquardt Inc"}
+{"issn"=>"10.1234/altmetric857", "title"=>"Small Rubber Car", "doi"=>"1111-1545", "author"=>"Meta Borer", "journal"=>"Hickle-Kassulke"}
+{"issn"=>"10.1234/altmetric860", "title"=>"Small Steel Table", "doi"=>"8708-9669", "author"=>"Howard Spinka Jr.", "journal"=>"Gusikowski, Buckridge and Prosacco"}
+{"issn"=>"10.1234/altmetric865", "title"=>"Intelligent Concrete Gloves", "doi"=>"6080-6624", "author"=>"Mr. Isaiah Gibson", "journal"=>"Tromp-Predovic"}
+{"issn"=>"10.1234/altmetric867", "title"=>"Intelligent Rubber Car", "doi"=>"6314-0626", "author"=>"Miss Martina Ward", "journal"=>"Schoen Group"}
+{"issn"=>"10.1234/altmetric868", "title"=>"Fantastic Wooden Gloves", "doi"=>"8708-9669", "author"=>"Maxime Mills", "journal"=>"Gusikowski, Buckridge and Prosacco"}
+{"issn"=>"10.1234/altmetric868", "title"=>"Practical Concrete Computer", "doi"=>"4389-0212", "author"=>"Maxime Mills", "journal"=>"Feeney, Stamm and Shanahan"}
+{"issn"=>"10.1234/altmetric868", "title"=>"Rustic Cotton Chair", "doi"=>"4812-3148", "author"=>"Maxime Mills", "journal"=>"Marvin LLC"}
+{"issn"=>"10.1234/altmetric870", "title"=>"Gorgeous Wooden Pants", "doi"=>"6454-1054", "author"=>"Sage Waters I", "journal"=>"Bednar-Rogahn"}
+{"issn"=>"10.1234/altmetric870", "title"=>"Practical Cotton Car", "doi"=>"2454-1401", "author"=>"Sage Waters I", "journal"=>"Mueller Group"}
+{"issn"=>"10.1234/altmetric870", "title"=>"Small Rubber Table", "doi"=>"6650-5373", "author"=>"Sage Waters I", "journal"=>"Braun and Sons"}
+{"issn"=>"10.1234/altmetric871", "title"=>"Incredible Wooden Chair", "doi"=>"4336-8427", "author"=>"Darion Wilderman Jr.", "journal"=>"Becker and Sons"}
+{"issn"=>"10.1234/altmetric871", "title"=>"Practical Granite Table", "doi"=>"6337-6036", "author"=>"Darion Wilderman Jr.", "journal"=>"Bednar, Tromp and Rempel"}
+{"issn"=>"10.1234/altmetric872", "title"=>"Ergonomic Cotton Gloves", "doi"=>"65327743", "author"=>"Dr. Kasandra Jenkins", "journal"=>"Fay-Hilpert"}
+{"issn"=>"10.1234/altmetric873", "title"=>"Ergonomic Rubber Shoes", "doi"=>"7271-7294", "author"=>"Meaghan Steuber Sr.", "journal"=>"Hane-Emmerich"}
+{"issn"=>"10.1234/altmetric873", "title"=>"Sleek Wooden Car", "doi"=>"4068-2837", "author"=>"Meaghan Steuber Sr.", "journal"=>"Pacocha, Reichert and Wuckert"}
+{"issn"=>"10.1234/altmetric874", "title"=>"Intelligent Rubber Computer", "doi"=>"2207-9031", "author"=>"Dr. Chandler Flatley", "journal"=>"Konopelski-Hane"}
+{"issn"=>"10.1234/altmetric875", "title"=>"Awesome Concrete Shirt", "doi"=>"5875-1506", "author"=>"Lysanne Swift", "journal"=>"Waters-Reichel"}
+{"issn"=>"10.1234/altmetric875", "title"=>"Awesome Granite Computer", "doi"=>"5026-2569", "author"=>"Lysanne Swift", "journal"=>"Wolff, Corwin and Lemke"}
+{"issn"=>"10.1234/altmetric876", "title"=>"Incredible Cotton Shoes", "doi"=>"7198-0726", "author"=>"Estella Predovic", "journal"=>"Harvey LLC"}
+{"issn"=>"10.1234/altmetric877", "title"=>"Practical Wooden Computer", "doi"=>"8149-2718", "author"=>"Freeman Gottlieb PhD", "journal"=>"Schaefer-Sanford"}
+{"issn"=>"10.1234/altmetric877", "title"=>"Rustic Plastic Gloves", "doi"=>"3355-0845", "author"=>"Freeman Gottlieb PhD", "journal"=>"Gottlieb and Sons"}
+{"issn"=>"10.1234/altmetric878", "title"=>"Practical Cotton Computer", "doi"=>"2539-4366", "author"=>"Colleen Okuneva IV", "journal"=>"Bailey Group"}
+{"issn"=>"10.1234/altmetric879", "title"=>"Small Concrete Pants", "doi"=>"32851949", "author"=>"Vicente Baumbach", "journal"=>"Bruen and Sons"}
+{"issn"=>"10.1234/altmetric88", "title"=>"Gorgeous Concrete Car", "doi"=>"7055-7316", "author"=>"Mrs. Sterling Eichmann", "journal"=>"Fahey Group"}
+{"issn"=>"10.1234/altmetric880", "title"=>"Gorgeous Steel Computer", "doi"=>"7307-5828", "author"=>"Nyasia Rodriguez", "journal"=>"Cronin-Ruecker"}
+{"issn"=>"10.1234/altmetric881", "title"=>"Sleek Steel Pants", "doi"=>"3785-1646", "author"=>"Bernita Von Jr.", "journal"=>"Bode, Stiedemann and Renner"}
+{"issn"=>"10.1234/altmetric882", "title"=>"Ergonomic Concrete Shirt", "doi"=>"8545-3348", "author"=>"Ms. Emilio Grady", "journal"=>"Adams-Balistreri"}
+{"issn"=>"10.1234/altmetric882", "title"=>"Intelligent Plastic Gloves", "doi"=>"8885-9341", "author"=>"Ms. Emilio Grady", "journal"=>"Purdy-Batz"}
+{"issn"=>"10.1234/altmetric883", "title"=>"Small Concrete Chair", "doi"=>"8541-5457", "author"=>"Miss Richie Rolfson", "journal"=>"Davis, Witting and Spencer"}
+{"issn"=>"10.1234/altmetric884", "title"=>"Incredible Steel Gloves", "doi"=>"2565-9228", "author"=>"Colleen Okuneva IV", "journal"=>"Gulgowski Inc"}
+{"issn"=>"10.1234/altmetric885", "title"=>"Intelligent Plastic Pants", "doi"=>"9241-3535", "author"=>"Lysanne Swift", "journal"=>"Lockman, Wolf and Anderson"}
+{"issn"=>"10.1234/altmetric887", "title"=>"Gorgeous Wooden Hat", "doi"=>"3132-7124", "author"=>"Dr. Chandler Flatley", "journal"=>"Cruickshank, McKenzie and Weimann"}
+{"issn"=>"10.1234/altmetric890", "title"=>"Ergonomic Concrete Shoes", "doi"=>"5818-3335", "author"=>"Sidney Muller IV", "journal"=>"Lueilwitz, Durgan and Dickinson"}
+{"issn"=>"10.1234/altmetric893", "title"=>"Fantastic Granite Shirt", "doi"=>"2539-4366", "author"=>"Sammy Trantow", "journal"=>"Bailey Group"}
+{"issn"=>"10.1234/altmetric895", "title"=>"Rustic Rubber Computer", "doi"=>"4680-1316", "author"=>"Hermina Stiedemann", "journal"=>"Conn Group"}
+{"issn"=>"10.1234/altmetric897", "title"=>"Fantastic Concrete Hat", "doi"=>"3319-8105", "author"=>"Gilbert Hettinger", "journal"=>"Corwin LLC"}
+{"issn"=>"10.1234/altmetric898", "title"=>"Intelligent Granite Pants", "doi"=>"8713-8741", "author"=>"Colleen Okuneva IV", "journal"=>"Ledner Group"}
+{"issn"=>"10.1234/altmetric90", "title"=>"Awesome Wooden Table", "doi"=>"5307-9619", "author"=>"Bernita Von Jr.", "journal"=>"Johns LLC"}
+{"issn"=>"10.1234/altmetric90", "title"=>"Incredible Granite Pants", "doi"=>"0647-4622", "author"=>"Bernita Von Jr.", "journal"=>"Jacobs Inc"}
+{"issn"=>"10.1234/altmetric900", "title"=>"Awesome Cotton Car", "doi"=>"7535-6816", "author"=>"Randal Koelpin", "journal"=>"Block LLC"}
+{"issn"=>"10.1234/altmetric902", "title"=>"Gorgeous Steel Car", "doi"=>"7454-8126", "author"=>"Brando Lakin V", "journal"=>"Wolff, Douglas and Kub"}
+{"issn"=>"10.1234/altmetric903", "title"=>"Incredible Granite Table", "doi"=>"1085-4412", "author"=>"Katelin Wiegand", "journal"=>"Donnelly Inc"}
+{"issn"=>"10.1234/altmetric903", "title"=>"Rustic Concrete Pants", "doi"=>"1296-8514", "author"=>"Katelin Wiegand", "journal"=>"Hessel Group"}
+{"issn"=>"10.1234/altmetric906", "title"=>"Awesome Granite Table", "doi"=>"0515-3818", "author"=>"Uriel Hamill", "journal"=>"Bogisich, Maggio and Jones"}
+{"issn"=>"10.1234/altmetric906", "title"=>"Intelligent Granite Pants", "doi"=>"8566-1261", "author"=>"Uriel Hamill", "journal"=>"Padberg-Schulist"}
+{"issn"=>"10.1234/altmetric908", "title"=>"Sleek Steel Pants", "doi"=>"5455-8165", "author"=>"Brando Lakin V", "journal"=>"Lakin, Barton and Corwin"}
+{"issn"=>"10.1234/altmetric909", "title"=>"Fantastic Rubber Hat", "doi"=>"8137-8341", "author"=>"Emmitt Mueller", "journal"=>"Lindgren-Haley"}
+{"issn"=>"10.1234/altmetric91", "title"=>"Intelligent Cotton Chair", "doi"=>"1817-4888", "author"=>"Pascale Boehm", "journal"=>"Rempel Inc"}
+{"issn"=>"10.1234/altmetric914", "title"=>"Awesome Concrete Hat", "doi"=>"5726-0888", "author"=>"Miss Richie Rolfson", "journal"=>"Schuppe and Sons"}
+{"issn"=>"10.1234/altmetric915", "title"=>"Incredible Granite Computer", "doi"=>"6540-4531", "author"=>"Sage Waters I", "journal"=>"Bahringer, Johnston and Daugherty"}
+{"issn"=>"10.1234/altmetric915", "title"=>"Small Rubber Shirt", "doi"=>"7152-1502", "author"=>"Sage Waters I", "journal"=>"Goodwin, Price and Connelly"}
+{"issn"=>"10.1234/altmetric916", "title"=>"Awesome Concrete Pants", "doi"=>"3355-0845", "author"=>"Estella Predovic", "journal"=>"Gottlieb and Sons"}
+{"issn"=>"10.1234/altmetric917", "title"=>"Gorgeous Steel Hat", "doi"=>"6253-5863", "author"=>"Pascale Boehm", "journal"=>"Heathcote Inc"}
+{"issn"=>"10.1234/altmetric925", "title"=>"Small Granite Chair", "doi"=>"1703-5106", "author"=>"Gilda Mraz", "journal"=>"Lebsack Inc"}
+{"issn"=>"10.1234/altmetric926", "title"=>"Gorgeous Cotton Table", "doi"=>"1511-1103", "author"=>"Meta Borer", "journal"=>"King Group"}
+{"issn"=>"10.1234/altmetric93", "title"=>"Rustic Wooden Chair", "doi"=>"20832487", "author"=>"Akeem Toy", "journal"=>"Sanford Inc"}
+{"issn"=>"10.1234/altmetric931", "title"=>"Awesome Cotton Pants", "doi"=>"3413-2625", "author"=>"Mrs. Sterling Eichmann", "journal"=>"Barrows Group"}
+{"issn"=>"10.1234/altmetric935", "title"=>"Gorgeous Wooden Car", "doi"=>"0421-6696", "author"=>"Dr. Dasia Corkery", "journal"=>"Johnson, Cassin and Little"}
+{"issn"=>"10.1234/altmetric938", "title"=>"Awesome Concrete Table", "doi"=>"7818-6587", "author"=>"Bennett Towne DDS", "journal"=>"O'Connell and Sons"}
+{"issn"=>"10.1234/altmetric938", "title"=>"Fantastic Wooden Pants", "doi"=>"66358622", "author"=>"Bennett Towne DDS", "journal"=>"Ebert and Sons"}
+{"issn"=>"10.1234/altmetric938", "title"=>"Sleek Rubber Shoes", "doi"=>"0165-3926", "author"=>"Bennett Towne DDS", "journal"=>"Breitenberg, Rice and Kiehn"}
+{"issn"=>"10.1234/altmetric939", "title"=>"Practical Cotton Shirt", "doi"=>"7826-6161", "author"=>"Nathan McDermott", "journal"=>"Pfeffer, Mayer and Gorczany"}
+{"issn"=>"10.1234/altmetric941", "title"=>"Incredible Cotton Chair", "doi"=>"8423-2585", "author"=>"Hermina Stiedemann", "journal"=>"Yundt Inc"}
+{"issn"=>"10.1234/altmetric942", "title"=>"Practical Plastic Computer", "doi"=>"2974-8513", "author"=>"Dr. Chandler Flatley", "journal"=>"Bednar Group"}
+{"issn"=>"10.1234/altmetric942", "title"=>"Rustic Granite Table", "doi"=>"6474-7834", "author"=>"Dr. Chandler Flatley", "journal"=>"Thiel Group"}
+{"issn"=>"10.1234/altmetric943", "title"=>"Sleek Granite Chair", "doi"=>"3842-8885", "author"=>"Dr. Camryn Johnson", "journal"=>"Predovic-Swaniawski"}
+{"issn"=>"10.1234/altmetric945", "title"=>"Rustic Plastic Pants", "doi"=>"7186-1356", "author"=>"Rebeka Koss", "journal"=>"Frami and Sons"}
+{"issn"=>"10.1234/altmetric946", "title"=>"Small Plastic Gloves", "doi"=>"1058-8546", "author"=>"Miss Savannah Heathcote", "journal"=>"Jerde, Rath and Lehner"}
+{"issn"=>"10.1234/altmetric947", "title"=>"Awesome Plastic Shoes", "doi"=>"1285-6632", "author"=>"Kaley Muller", "journal"=>"Smith, Cartwright and Marvin"}
+{"issn"=>"10.1234/altmetric947", "title"=>"Intelligent Concrete Car", "doi"=>"7894-1777", "author"=>"Kaley Muller", "journal"=>"Satterfield LLC"}
+{"issn"=>"10.1234/altmetric949", "title"=>"Gorgeous Rubber Shirt", "doi"=>"1289-6437", "author"=>"Howard Spinka Jr.", "journal"=>"Hettinger, Roob and Johnson"}
+{"issn"=>"10.1234/altmetric950", "title"=>"Sleek Plastic Shirt", "doi"=>"7198-0726", "author"=>"Nathan McDermott", "journal"=>"Harvey LLC"}
+{"issn"=>"10.1234/altmetric952", "title"=>"Intelligent Concrete Computer", "doi"=>"9557-9477", "author"=>"Katelin Wiegand", "journal"=>"Weissnat Inc"}
+{"issn"=>"10.1234/altmetric954", "title"=>"Gorgeous Steel Hat", "doi"=>"17772954", "author"=>"Dr. Kasandra Jenkins", "journal"=>"Huels and Sons"}
+{"issn"=>"10.1234/altmetric955", "title"=>"Awesome Rubber Computer", "doi"=>"5446-1062", "author"=>"Demetris Schultz", "journal"=>"Zulauf, McKenzie and MacGyver"}
+{"issn"=>"10.1234/altmetric955", "title"=>"Sleek Cotton Hat", "doi"=>"6647-3645", "author"=>"Demetris Schultz", "journal"=>"Ebert, Davis and Runolfsdottir"}
+{"issn"=>"10.1234/altmetric956", "title"=>"Rustic Plastic Car", "doi"=>"5818-3335", "author"=>"Perry Ondricka", "journal"=>"Lueilwitz, Durgan and Dickinson"}
+{"issn"=>"10.1234/altmetric96", "title"=>"Gorgeous Granite Gloves", "doi"=>"3629-6665", "author"=>"Velma Rowe", "journal"=>"Homenick, Koepp and Bauch"}
+{"issn"=>"10.1234/altmetric962", "title"=>"Intelligent Wooden Shoes", "doi"=>"35163718", "author"=>"Bennett Towne DDS", "journal"=>"Sawayn-Stoltenberg"}
+{"issn"=>"10.1234/altmetric964", "title"=>"Rustic Rubber Shirt", "doi"=>"3381-2751", "author"=>"Frederic Sanford", "journal"=>"Will Inc"}
+{"issn"=>"10.1234/altmetric967", "title"=>"Incredible Rubber Shirt", "doi"=>"7263-4747", "author"=>"Hermina Stiedemann", "journal"=>"Rosenbaum-Auer"}
+{"issn"=>"10.1234/altmetric97", "title"=>"Sleek Plastic Chair", "doi"=>"9557-9477", "author"=>"Brendon Balistreri Sr.", "journal"=>"Weissnat Inc"}
+{"issn"=>"10.1234/altmetric970", "title"=>"Small Rubber Shirt", "doi"=>"4662-7769", "author"=>"Darion Wilderman Jr.", "journal"=>"Gutkowski Group"}
+{"issn"=>"10.1234/altmetric971", "title"=>"Intelligent Steel Chair", "doi"=>"63033283", "author"=>"Vicente Baumbach", "journal"=>"Kulas-Gaylord"}
+{"issn"=>"10.1234/altmetric977", "title"=>"Small Granite Shoes", "doi"=>"5561-1380", "author"=>"Ahmad Pouros MD", "journal"=>"Aufderhar-Hintz"}
+{"issn"=>"10.1234/altmetric979", "title"=>"Fantastic Wooden Gloves", "doi"=>"3466-9141", "author"=>"Mr. Georgette DuBuque", "journal"=>"Volkman Inc"}
+{"issn"=>"10.1234/altmetric98", "title"=>"Ergonomic Steel Pants", "doi"=>"4361-7445", "author"=>"Ms. Ella Lynch", "journal"=>"Zieme-Dach"}
+{"issn"=>"10.1234/altmetric98", "title"=>"Incredible Cotton Car", "doi"=>"5105-5241", "author"=>"Ms. Ella Lynch", "journal"=>"Hamill, O'Keefe and Klein"}
+{"issn"=>"10.1234/altmetric980", "title"=>"Practical Cotton Pants", "doi"=>"8337-9477", "author"=>"Estella Predovic", "journal"=>"Zieme and Sons"}
+{"issn"=>"10.1234/altmetric982", "title"=>"Ergonomic Steel Computer", "doi"=>"7234-3825", "author"=>"Dr. Dasia Corkery", "journal"=>"Schinner, Hackett and Schimmel"}
+{"issn"=>"10.1234/altmetric984", "title"=>"Ergonomic Wooden Chair", "doi"=>"63888634", "author"=>"Bennett Towne DDS", "journal"=>"Olson Group"}
+{"issn"=>"10.1234/altmetric986", "title"=>"Intelligent Wooden Computer", "doi"=>"8111-4558", "author"=>"Gilda Mraz", "journal"=>"Runolfsdottir Inc"}
+{"issn"=>"10.1234/altmetric987", "title"=>"Awesome Cotton Pants", "doi"=>"1710-2171", "author"=>"Frederic Sanford", "journal"=>"Veum, Kohler and Conroy"}
+{"issn"=>"10.1234/altmetric987", "title"=>"Rustic Wooden Pants", "doi"=>"3087-2113", "author"=>"Frederic Sanford", "journal"=>"Gorczany-Predovic"}
+{"issn"=>"10.1234/altmetric989", "title"=>"Fantastic Concrete Computer", "doi"=>"7125-4516", "author"=>"Howell Ratke", "journal"=>"Friesen-Christiansen"}
+{"issn"=>"10.1234/altmetric99", "title"=>"Intelligent Rubber Shirt", "doi"=>"9024-1117", "author"=>"Ahmad Pouros MD", "journal"=>"Cassin-Swaniawski"}
+{"issn"=>"10.1234/altmetric990", "title"=>"Sleek Rubber Computer", "doi"=>"5747-4525", "author"=>"Miss Martina Ward", "journal"=>"Lebsack, Bashirian and Moore"}
+{"issn"=>"10.1234/altmetric995", "title"=>"Fantastic Concrete Table", "doi"=>"5039-2276", "author"=>"Randal Koelpin", "journal"=>"Macejkovic, Paucek and Lowe"}
+{"issn"=>"10.1234/altmetric997", "title"=>"Awesome Concrete Hat", "doi"=>"7819-1776", "author"=>"Sage Waters I", "journal"=>"Feeney, Wintheiser and Bauch"}
+{"issn"=>"10.1234/altmetric997", "title"=>"Practical Plastic Table", "doi"=>"4826-6971", "author"=>"Sage Waters I", "journal"=>"Lind, Feeney and Hintz"}

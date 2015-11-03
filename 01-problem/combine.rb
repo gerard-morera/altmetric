@@ -10,6 +10,7 @@ require_relative 'lib/models/journals.rb'
 require_relative 'lib/combiner.rb'
 require_relative 'lib/manager.rb'
 require_relative 'lib/presenters/csv.rb'
+require_relative 'lib/presenters/to_json.rb'
 
 class Combine
   def call
@@ -30,7 +31,7 @@ class Combine
   end
 
   def to_json collection
-    # present(Presenters::ToJson, collection)
+    present(Presenters::ToJson, collection)
   end
 
   def managers
