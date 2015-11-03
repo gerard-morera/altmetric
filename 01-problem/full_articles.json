@@ -1,34 +1,0 @@
-
-[1mFrom:[0m /Users/gerardmorera/altmetric-test/01-problem/lib/builders/author.rb @ line 12 Builders::Author#call:
-
-    [1;34m10[0m: [32mdef[0m [1;34mcall[0m
-    [1;34m11[0m:   binding.pry
- => [1;34m12[0m:   [1;34;4mModels[0m::[1;34;4mAuthor[0m.new(data) [32mif[0m valid?
-    [1;34m13[0m: [32mend[0m
-
-[0G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[1mFrom:[0m /Users/gerardmorera/altmetric-test/01-problem/lib/builders/author.rb @ line 12 Builders::Author#call:
-
-    [1;34m10[0m: [32mdef[0m [1;34mcall[0m
-    [1;34m11[0m:   binding.pry
- => [1;34m12[0m:   [1;34;4mModels[0m::[1;34;4mAuthor[0m.new(data) [32mif[0m valid?
-    [1;34m13[0m: [32mend[0m
-
-[0G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G
-[1mFrom:[0m /Users/gerardmorera/altmetric-test/01-problem/lib/builders/author.rb @ line 12 Builders::Author#call:
-
-    [1;34m10[0m: [32mdef[0m [1;34mcall[0m
-    [1;34m11[0m:   binding.pry
- => [1;34m12[0m:   [1;34;4mModels[0m::[1;34;4mAuthor[0m.new(data) [32mif[0m valid?
-    [1;34m13[0m: [32mend[0m
-
-[0G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)>                                                                                                                                                        [31G[0m[0K[1] pry(#<Builders::Author>)> e                                                                                                                                                      [32G[0m[0K[1] pry(#<Builders::Author>)> ex                                                                                                                                                     [33G[0m[0K[1] pry(#<Builders::Author>)> exi                                                                                                                                                    [34G[0m[0K[1] pry(#<Builders::Author>)> exit                                                                                                                                                   [35G[0m[0K[1] pry(#<Builders::Author>)> exit[31m[1;31m"[0m[31m[0m                                                                                                                                                  [36G
