@@ -11,7 +11,7 @@ class DateRangeFormatter
   end
 
   def to_s
-    if same_day_date?
+    if same_day_dates?
       get_day_range
     elsif same_month_dates?
       get_month_range
@@ -86,7 +86,7 @@ class DateRangeFormatter
     end_time
   end
 
-  def same_day_date?
+  def same_day_dates?
     start_date == end_date
   end
 
