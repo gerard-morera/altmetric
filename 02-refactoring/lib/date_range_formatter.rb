@@ -92,7 +92,11 @@ class DateRangeFormatter
   end
 
   def same_year_and_same_month_dates?
-    (start_date.month == end_date.month) && same_year_dates?
+    same_month_dates? && same_year_dates?
+  end
+
+  def same_month_dates?
+    start_date.month == end_date.month
   end
 
   def same_year_dates?
