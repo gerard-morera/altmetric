@@ -12,11 +12,11 @@ class DateRangeFormatter
 
   def to_s
     if same_year_and_same_day_dates?
-      get_day_range
+      get_same_day_range
     elsif same_year_and_same_month_dates?
-      get_month_range
+      get_same_month_range
     elsif same_year_dates?
-      get_year_range
+      get_same_year_range
     else
       get_other_range
     end
@@ -26,53 +26,58 @@ class DateRangeFormatter
 
   attr_reader :start_date, :start_time, :end_date, :end_time
 
-  def get_day_range
-    if has_start_and_end_time?
-      "#{full_start_date} at #{start_time} to #{end_time}"
-    elsif has_start_time?
-      "#{full_start_date} at #{start_time}"
-    elsif has_end_time?
-      "#{full_start_date} until #{end_time}"
+  def get_same_day_range
+    if has_time?
+      format_with_time
     else
       full_start_date
     end
   end
 
-  def get_month_range
-    if has_start_and_end_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}"
-    elsif has_start_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date}"
-    elsif has_end_time?
-      "#{full_start_date} - #{full_end_date} at #{end_time}"
+  def get_same_month_range
+    if has_time?
+      format_with_time
     else
       start_date.strftime("#{start_date.day.ordinalize} - #{end_date.day.ordinalize} %B %Y")
     end
   end
 
-  def get_year_range
-    if has_start_and_end_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}"
-    elsif has_start_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date}"
-    elsif has_end_time?
-      "#{full_start_date} - #{full_end_date} at #{end_time}"
+  def get_same_year_range
+    if has_time?
+      format_with_time
     else
-      start_date.strftime("#{start_date.day.ordinalize} %B - ") + @end_date.strftime("#{@end_date.day.ordinalize} %B %Y")
+      start_date.strftime("#{start_date.day.ordinalize} %B - ") + end_date.strftime("#{end_date.day.ordinalize} %B %Y")
     end
   end
 
   def get_other_range
-
-    if has_start_and_end_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}"
-    elsif has_start_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date}"
-    elsif has_end_time?
-      "#{full_start_date} - #{full_end_date} at #{end_time}"
+    if has_time?
+      format_with_time
     else
       "#{full_start_date} - #{full_end_date}"
     end
+  end
+
+  def format_with_time
+    if has_start_and_end_time?
+      has_end_date_to_display? ? "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}" : "#{full_start_date} at #{start_time} to #{end_time}"
+    elsif has_start_time?   
+      has_end_date_to_display? ? "#{full_start_date} at #{start_time} - #{full_end_date}" : "#{full_start_date} at #{start_time}"
+    elsif has_end_time?   
+      has_end_date_to_display? ? "#{full_start_date} - #{full_end_date} at #{end_time}" : "#{full_start_date} until #{end_time}"
+    end   
+  end
+
+  def has_end_date_to_display?
+    if same_year_and_same_day_dates?
+      false
+    else
+      end_date
+    end 
+  end
+
+  def has_time?
+    start_time || end_time
   end
 
   def has_start_and_end_time?
@@ -86,6 +91,7 @@ class DateRangeFormatter
   def has_end_time?
     end_time
   end
+
 
   def same_year_and_same_day_dates?
     start_date == end_date
