@@ -1,5 +1,6 @@
 require "date"
 require "fixnum"
+require_relative 'date_range_identifier.rb'
 require 'pry'
 
 class DateRangeFormatter
@@ -11,15 +12,8 @@ class DateRangeFormatter
   end
 
   def to_s
-    if same_year_and_same_day_dates?
-      get_format_for "day"
-    elsif same_year_and_same_month_dates?
-      get_format_for "month"
-    elsif same_year_dates?
-      get_format_for "year"
-    else
-      get_format_for "other"
-    end
+    date_range = DateRangeIdentifier.new(start_date, end_date).call
+    get_format_for date_range
   end
 
   private
@@ -42,8 +36,6 @@ class DateRangeFormatter
     end
   end
 
-  
-
   def format_for_time
     if has_start_and_end_time?
       has_end_date_to_display? ? "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}" : "#{full_start_date} at #{start_time} to #{end_time}"
@@ -62,6 +54,11 @@ class DateRangeFormatter
     end 
   end
 
+  def same_year_and_same_day_dates?
+    start_date == end_date
+  end
+
+
   def has_time?
     start_time || end_time
   end
@@ -76,23 +73,6 @@ class DateRangeFormatter
 
   def has_end_time?
     end_time
-  end
-
-
-  def same_year_and_same_day_dates?
-    start_date == end_date
-  end
-
-  def same_year_and_same_month_dates?
-    same_month_dates? && same_year_dates?
-  end
-
-  def same_month_dates?
-    start_date.month == end_date.month
-  end
-
-  def same_year_dates?
-    start_date.year == end_date.year
   end
 
   def full_start_date
