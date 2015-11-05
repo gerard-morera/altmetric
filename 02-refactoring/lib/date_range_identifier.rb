@@ -6,13 +6,13 @@ class DateRangeIdentifier
 
   def call
     if same_year_and_same_day_dates?
-      "day"
+      "day_format"
     elsif same_year_and_same_month_dates?
-      "month"
+      "month_format"
     elsif same_year_dates?
-      "year"
+      "year_format"
     else
-      "other"
+      "other_format"
     end
   end
 
