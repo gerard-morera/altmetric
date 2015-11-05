@@ -1,4 +1,3 @@
-require 'pry'
 class Combiner
   def initialize articles, journals, authors
     @articles = articles.compact
