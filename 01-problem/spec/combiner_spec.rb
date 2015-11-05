@@ -35,7 +35,7 @@ describe Combiner do
   end
 
   describe 'call' do
-    it '' do
+    it 'build an array of arrays of articles with its properties' do
       expect(subject.call).to eq([["doi_1", "title_1", "issn_1", "author_name", "No journal"], ["doi_2", "title_2", "issn_2", "No name", "journal_title"]])
     end
   end
