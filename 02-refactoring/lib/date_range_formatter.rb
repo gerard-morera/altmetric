@@ -1,9 +1,9 @@
+require "date"
+require "fixnum"
+
 require_relative 'time_range_identifier.rb'
 require_relative 'date_range_identifier.rb'
 require_relative 'date_range_format_builder.rb'
-require "date"
-require "fixnum"
-require 'pry'
 
 class DateRangeFormatter
   def initialize start_date, end_date, start_time = nil, end_time = nil
