@@ -12,13 +12,13 @@ class DateRangeFormatter
 
   def to_s
     if same_year_and_same_day_dates?
-      get_same_day_range
+      get_format_for "day"
     elsif same_year_and_same_month_dates?
-      get_same_month_range
+      get_format_for "month"
     elsif same_year_dates?
-      get_same_year_range
+      get_format_for "year"
     else
-      get_other_range
+      get_format_for "other"
     end
   end
 
@@ -26,39 +26,25 @@ class DateRangeFormatter
 
   attr_reader :start_date, :start_time, :end_date, :end_time
 
-  def get_same_day_range
+  def get_format_for date_range
     if has_time?
-      format_with_time
+      format_for_time
     else
-      full_start_date
+      if date_range == "month" 
+        start_date.strftime("#{start_date.day.ordinalize} - ") + end_date.strftime("#{end_date.day.ordinalize} %B %Y")
+      elsif date_range == "year"
+        start_date.strftime("#{start_date.day.ordinalize} %B - ") + end_date.strftime("#{end_date.day.ordinalize} %B %Y")
+      elsif date_range == "other"
+        "#{full_start_date} - #{full_end_date}"
+      else
+        full_start_date
+      end
     end
   end
 
-  def get_same_month_range
-    if has_time?
-      format_with_time
-    else
-      start_date.strftime("#{start_date.day.ordinalize} - #{end_date.day.ordinalize} %B %Y")
-    end
-  end
+  
 
-  def get_same_year_range
-    if has_time?
-      format_with_time
-    else
-      start_date.strftime("#{start_date.day.ordinalize} %B - ") + end_date.strftime("#{end_date.day.ordinalize} %B %Y")
-    end
-  end
-
-  def get_other_range
-    if has_time?
-      format_with_time
-    else
-      "#{full_start_date} - #{full_end_date}"
-    end
-  end
-
-  def format_with_time
+  def format_for_time
     if has_start_and_end_time?
       has_end_date_to_display? ? "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}" : "#{full_start_date} at #{start_time} to #{end_time}"
     elsif has_start_time?   
