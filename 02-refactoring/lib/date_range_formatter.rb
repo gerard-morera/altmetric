@@ -17,7 +17,7 @@ class DateRangeFormatter
     if time_range
       get_format_with_time_range
     else
-      format_builder.without_time
+      format_builder.without_time(date_range)
     end
   end
 
@@ -27,9 +27,9 @@ class DateRangeFormatter
 
   def get_format_with_time_range
     if has_end_date_to_display?
-      format_builder.full_date
+      format_builder.full_date(time_range)
     else
-      format_builder.partial_date
+      format_builder.partial_date(time_range)
     end
   end
 
@@ -46,7 +46,7 @@ class DateRangeFormatter
   end
 
   def format_builder
-    format_builder = DateRangeFormatBuilder.new(start_date, end_date, start_time, end_time, date_range, time_range)
+    format_builder = DateRangeFormatBuilder.new(start_date, end_date, start_time, end_time)
   end
 
   def date_range
