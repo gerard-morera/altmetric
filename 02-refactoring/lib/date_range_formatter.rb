@@ -1,9 +1,12 @@
 require "date"
 require "fixnum"
-require 'pry'
+
+require_relative 'time_range_identifier.rb'
+require_relative 'date_range_identifier.rb'
+require_relative 'date_range_format_builder.rb'
 
 class DateRangeFormatter
-  def initialize(start_date, end_date, start_time = nil, end_time = nil)
+  def initialize start_date, end_date, start_time = nil, end_time = nil
     @start_date = Date.parse(start_date)
     @end_date   = Date.parse(end_date)
     @start_time = start_time
@@ -11,104 +14,47 @@ class DateRangeFormatter
   end
 
   def to_s
-    if same_year_and_same_day_dates?
-      get_day_range
-    elsif same_year_and_same_month_dates?
-      get_month_range
-    elsif same_year_dates?
-      get_year_range
+    if time_range
+      get_format_with_time_range
     else
-      get_other_range
+      format_builder.without_time(date_range)
     end
   end
 
   private
 
-  attr_reader :start_date, :start_time, :end_date, :end_time
+  attr_reader :start_date, :start_time, :end_date, :end_time, :date_range, :time_range
 
-  def get_day_range
-    if has_start_and_end_time?
-      "#{full_start_date} at #{start_time} to #{end_time}"
-    elsif has_start_time?
-      "#{full_start_date} at #{start_time}"
-    elsif has_end_time?
-      "#{full_start_date} until #{end_time}"
+  def get_format_with_time_range
+    if has_end_date_to_display?
+      format_builder.full_date(time_range)
     else
-      full_start_date
+      format_builder.partial_date(time_range)
     end
   end
 
-  def get_month_range
-    if has_start_and_end_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}"
-    elsif has_start_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date}"
-    elsif has_end_time?
-      "#{full_start_date} - #{full_end_date} at #{end_time}"
+  def has_end_date_to_display?
+    if same_year_and_same_day_dates?
+      false
     else
-      start_date.strftime("#{start_date.day.ordinalize} - #{end_date.day.ordinalize} %B %Y")
-    end
-  end
-
-  def get_year_range
-    if has_start_and_end_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}"
-    elsif has_start_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date}"
-    elsif has_end_time?
-      "#{full_start_date} - #{full_end_date} at #{end_time}"
-    else
-      start_date.strftime("#{start_date.day.ordinalize} %B - ") + @end_date.strftime("#{@end_date.day.ordinalize} %B %Y")
-    end
-  end
-
-  def get_other_range
-
-    if has_start_and_end_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date} at #{end_time}"
-    elsif has_start_time?
-      "#{full_start_date} at #{start_time} - #{full_end_date}"
-    elsif has_end_time?
-      "#{full_start_date} - #{full_end_date} at #{end_time}"
-    else
-      "#{full_start_date} - #{full_end_date}"
-    end
-  end
-
-  def has_start_and_end_time?
-    start_time && end_time
-  end
-
-  def has_start_time?
-    start_time
-  end
-
-  def has_end_time?
-    end_time
+      end_date
+    end 
   end
 
   def same_year_and_same_day_dates?
     start_date == end_date
   end
 
-  def same_year_and_same_month_dates?
-    same_month_dates? && same_year_dates?
+  def format_builder
+    format_builder = DateRangeFormatBuilder.new(start_date, end_date, start_time, end_time)
   end
 
-  def same_month_dates?
-    start_date.month == end_date.month
+  def date_range
+    date_range ||= DateRangeIdentifier.new(start_date, end_date).call
   end
 
-  def same_year_dates?
-    start_date.year == end_date.year
-  end
-
-  def full_start_date
-    start_date.strftime("#{start_date.day.ordinalize} %B %Y")
-  end
-
-  def full_end_date
-    end_date.strftime("#{end_date.day.ordinalize} %B %Y")
+  def time_range
+    time_range ||= TimeRangeIdentifier.new(start_time, end_time).call
   end
 end
 
