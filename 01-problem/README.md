@@ -1,7 +1,7 @@
 This Ruby program parses files and combines its information in different formats.
 
-$ ruby combine.rb --format json journals.csv articles.csv authors.json > full_articles.json
-$ ruby combine.rb --format csv journals.csv articles.csv authors.json > full_articles.csv
+`$ ruby combine.rb --format json journals.csv articles.csv authors.json > full_articles.json`
+`$ ruby combine.rb --format csv journals.csv articles.csv authors.json > full_articles.csv`
 
 
 In the resources directory, you'll find three data files:
