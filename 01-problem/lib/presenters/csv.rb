@@ -1,5 +1,3 @@
-require 'csv'
-
 module Presenters
   class Csv
     def initialize collection
